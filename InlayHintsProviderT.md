@@ -1,4 +1,4 @@
-# InlayHintsProvider<T>
+## InlayHintsProvider&lt;T&gt;
 
 The inlay hints provider interface defines the contract between extensions and the inlay hints feature.
 

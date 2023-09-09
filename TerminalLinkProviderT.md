@@ -1,4 +1,4 @@
-# TerminalLinkProvider<T>
+## TerminalLinkProvider&lt;T&gt;
 
 A provider that enables detection and handling of links within terminals.
 

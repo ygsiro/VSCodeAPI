@@ -1,4 +1,4 @@
-# DocumentLinkProvider<T>
+## DocumentLinkProvider&lt;T&gt;
 
 The document link provider defines the contract between extensions and feature of showing links in the editor.
 

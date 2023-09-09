@@ -1,4 +1,4 @@
-# CustomReadonlyEditorProvider<T>
+## CustomReadonlyEditorProvider&lt;T&gt;
 
 Provider for readonly custom editors that use a custom document model.
 

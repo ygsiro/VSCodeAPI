@@ -1,4 +1,4 @@
-# Extension<T>
+## Extension&lt;T&gt;
 
 Represents an extension.
 

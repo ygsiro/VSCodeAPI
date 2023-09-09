@@ -1,4 +1,4 @@
-# CompletionItemProvider<T>
+## CompletionItemProvider&lt;T&gt;
 
 The completion item provider interface defines the contract between extensions and IntelliSense.
 

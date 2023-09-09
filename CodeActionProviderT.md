@@ -1,4 +1,4 @@
-# CodeActionProvider<T>
+## CodeActionProvider&lt;T&gt;
 
 Provides contextual actions for code. Code actions typically either fix problems or beautify/refactor code.
 

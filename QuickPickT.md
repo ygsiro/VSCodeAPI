@@ -1,4 +1,4 @@
-# QuickPick<T>
+## QuickPick&lt;T&gt;
 
 A concrete QuickInput to let the user pick an item from a list of items of type T. The items can be filtered through a filter text field and there is an option canSelectMany to allow for selecting multiple items.
 

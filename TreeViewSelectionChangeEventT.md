@@ -1,4 +1,4 @@
-# TreeViewSelectionChangeEvent<T>
+## TreeViewSelectionChangeEvent&lt;T&gt;
 
 The event that is fired when there is a change in tree view's selection
 

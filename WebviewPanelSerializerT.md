@@ -1,4 +1,4 @@
-# WebviewPanelSerializer<T>
+## WebviewPanelSerializer&lt;T&gt;
 
 Restore webview panels that have been persisted when vscode shuts down.
 

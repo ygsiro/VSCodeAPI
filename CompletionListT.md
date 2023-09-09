@@ -1,4 +1,4 @@
-# CompletionList<T>
+## CompletionList&lt;T&gt;
 
 Represents a collection of completion items to be presented in the editor.
 

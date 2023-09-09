@@ -1,4 +1,4 @@
-# WorkspaceSymbolProvider<T>
+## WorkspaceSymbolProvider&lt;T&gt;
 
 The workspace symbol provider interface defines the contract between extensions and the symbol search-feature.
 

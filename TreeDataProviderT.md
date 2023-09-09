@@ -1,4 +1,4 @@
-# TreeDataProvider<T>
+## TreeDataProvider&lt;T&gt;
 
 A data provider that provides tree data
 

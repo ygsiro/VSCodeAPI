@@ -1,4 +1,4 @@
-# TreeViewOptions<T>
+## TreeViewOptions&lt;T&gt;
 
 Options for creating a TreeView
 

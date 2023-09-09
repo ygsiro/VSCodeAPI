@@ -1,4 +1,4 @@
-# CustomDocumentEditEvent<T>
+## CustomDocumentEditEvent&lt;T&gt;
 
 Event triggered by extensions to signal to the editor that an edit has occurred on an CustomDocument.
 

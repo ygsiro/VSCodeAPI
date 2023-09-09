@@ -1,4 +1,4 @@
-# EventEmitter<T>
+## EventEmitter&lt;T&gt;
 
 An event emitter can be used to create and manage an Event for others to subscribe to. One emitter always owns one event.
 

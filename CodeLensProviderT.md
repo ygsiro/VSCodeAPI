@@ -1,4 +1,4 @@
-# CodeLensProvider<T>
+## CodeLensProvider&lt;T&gt;
 
 A code lens provider adds commands to source text. The commands will be shown as dedicated horizontal lines in between the source text.
 

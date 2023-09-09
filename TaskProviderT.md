@@ -1,4 +1,4 @@
-# TaskProvider<T>
+## TaskProvider&lt;T&gt;
 
 A task provider allows to add tasks to the task service. A task provider is registered via registerTaskProvider.
 

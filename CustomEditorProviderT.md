@@ -1,4 +1,4 @@
-# CustomEditorProvider<T>
+## CustomEditorProvider&lt;T&gt;
 
 Provider for editable custom editors that use a custom document model.
 

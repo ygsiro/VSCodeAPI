@@ -1,4 +1,4 @@
-# Progress<T>
+## Progress&lt;T&gt;
 
 Defines a generalized way of reporting progress updates.
 
