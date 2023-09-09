@@ -1,0 +1,42 @@
+# ExtensionTerminalOptions
+
+Value-object describing what options a virtual process terminal should use.
+
+## Properties
+
+### color
+
+```typescript
+color?: ThemeColor
+```
+
+### iconPath
+
+```typescript
+iconPath?: Uri | ThemeIcon | {dark: Uri, light: Uri}
+```
+
+### isTransient
+
+```typescript
+isTransient?: boolean
+```
+
+### location
+
+```typescript
+location?: TerminalEditorLocationOptions | TerminalSplitLocationOptions | TerminalLocation
+```
+
+### name
+
+```typescript
+name: string
+```
+
+### pty
+
+```typescript
+pty: Pseudoterminal
+```
+

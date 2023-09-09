@@ -1,0 +1,4 @@
+# SymbolKind
+
+A symbol kind.
+

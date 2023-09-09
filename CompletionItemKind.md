@@ -1,0 +1,4 @@
+# CompletionItemKind
+
+Completion item kinds.
+
