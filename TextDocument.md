@@ -75,12 +75,9 @@ getWordRangeAtPosition(position: Position, regex?: RegExp): Range
 ### lineAt
 
 ```typescript
+//1)
 lineAt(line: number): TextLine
-```
-
-### lineAt
-
-```typescript
+//2)
 lineAt(position: Position): TextLine
 ```
 

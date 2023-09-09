@@ -6,9 +6,6 @@ Represents a text selection in an editor.
 
 ```typescript
 new Selection(anchor: Position, active: Position): Selection
-```
-
-```typescript
 new Selection(anchorLine: number, anchorCharacter: number, activeLine: number, activeCharacter: number): Selection
 ```
 

@@ -6,9 +6,11 @@ Note that a document selector that is just a language identifier selects all doc
 
 example
 
-```ts
+```typescript
 let sel:DocumentSelector = { scheme: 'file', language: 'typescript' };
 ```
 
+```typescript
 DocumentSelector: DocumentFilter | string | ReadonlyArray<DocumentFilter | string>
+```
 

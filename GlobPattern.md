@@ -13,5 +13,7 @@ Glob patterns can have the following syntax:
 
 Note: a backslash (``) is not valid within a glob pattern. If you have an existing file path to match against, consider to use the relative pattern support that takes care of converting any backslash into slash. Otherwise, make sure to convert any backslash to slash when creating the glob pattern.
 
+```typescript
 GlobPattern: string | RelativePattern
+```
 

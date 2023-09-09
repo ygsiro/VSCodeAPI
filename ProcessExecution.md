@@ -5,10 +5,9 @@ The execution of a task happens as an external process without shell interaction
 ## Constructors
 
 ```typescript
+//1)
 new ProcessExecution(process: string, options?: ProcessExecutionOptions): ProcessExecution
-```
-
-```typescript
+//2)
 new ProcessExecution(process: string, args: string[], options?: ProcessExecutionOptions): ProcessExecution
 ```
 

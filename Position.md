@@ -65,24 +65,18 @@ isEqual(other: Position): boolean
 ### translate
 
 ```typescript
+//1)
 translate(lineDelta?: number, characterDelta?: number): Position
-```
-
-### translate
-
-```typescript
+//2)
 translate(change: {characterDelta: number, lineDelta: number}): Position
 ```
 
 ### with
 
 ```typescript
+//1)
 with(line?: number, character?: number): Position
-```
-
-### with
-
-```typescript
+//2)
 with(change: {character: number, line: number}): Position
 ```
 

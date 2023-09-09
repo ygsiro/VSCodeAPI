@@ -53,12 +53,9 @@ has(uri: Uri): boolean
 ### set
 
 ```typescript
+//1)
 set(uri: Uri, diagnostics: readonly Diagnostic[]): void
-```
-
-### set
-
-```typescript
+//2)
 set(entries: readonly [Uri, readonly Diagnostic[]][]): void
 ```
 

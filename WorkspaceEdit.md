@@ -77,24 +77,13 @@ replace(uri: Uri, range: Range, newText: string, metadata?: WorkspaceEditEntryMe
 ### set
 
 ```typescript
+//1)
 set(uri: Uri, edits: readonly TextEdit | SnippetTextEdit[]): void
-```
-
-### set
-
-```typescript
+//2)
 set(uri: Uri, edits: readonly [TextEdit | SnippetTextEdit, WorkspaceEditEntryMetadata][]): void
-```
-
-### set
-
-```typescript
+//3)
 set(uri: Uri, edits: readonly NotebookEdit[]): void
-```
-
-### set
-
-```typescript
+//4)
 set(uri: Uri, edits: readonly [NotebookEdit, WorkspaceEditEntryMetadata][]): void
 ```
 

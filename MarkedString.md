@@ -18,12 +18,9 @@ A memento represents a storage utility. It can store and retrieve values.
 ### get
 
 ```typescript
+//1)
 get<T>(key: string): T
-```
-
-### get
-
-```typescript
+//2)
 get<T>(key: string, defaultValue: T): T
 ```
 

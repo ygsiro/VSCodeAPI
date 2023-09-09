@@ -167,12 +167,9 @@ createInputBox(): InputBox
 ### createOutputChannel
 
 ```typescript
+//1)
 createOutputChannel(name: string, languageId?: string): OutputChannel
-```
-
-### createOutputChannel
-
-```typescript
+//2)
 createOutputChannel(name: string, options: {log: true}): LogOutputChannel
 ```
 
@@ -287,60 +284,35 @@ setStatusBarMessage(text: string, hideAfterTimeout: number): Disposable
 ### setStatusBarMessage
 
 ```typescript
+//1)
 setStatusBarMessage(text: string, hideWhenDone: Thenable<any>): Disposable
-```
-
-### setStatusBarMessage
-
-```typescript
+//2)
 setStatusBarMessage(text: string): Disposable
 ```
 
 ### showErrorMessage
 
 ```typescript
+//1)
 showErrorMessage<T extends string>(message: string, ...items: T[]): Thenable<T | undefined>
-```
-
-### showErrorMessage
-
-```typescript
+//2)
 showErrorMessage<T extends string>(message: string, options: MessageOptions, ...items: T[]): Thenable<T | undefined>
-```
-
-### showErrorMessage
-
-```typescript
+//3)
 showErrorMessage<T extends MessageItem>(message: string, ...items: T[]): Thenable<T | undefined>
-```
-
-### showErrorMessage
-
-```typescript
+//4)
 showErrorMessage<T extends MessageItem>(message: string, options: MessageOptions, ...items: T[]): Thenable<T | undefined>
 ```
 
 ### showInformationMessage
 
 ```typescript
+//1)
 showInformationMessage<T extends string>(message: string, ...items: T[]): Thenable<T | undefined>
-```
-
-### showInformationMessage
-
-```typescript
+//2)
 showInformationMessage<T extends string>(message: string, options: MessageOptions, ...items: T[]): Thenable<T | undefined>
-```
-
-### showInformationMessage
-
-```typescript
+//3)
 showInformationMessage<T extends MessageItem>(message: string, ...items: T[]): Thenable<T | undefined>
-```
-
-### showInformationMessage
-
-```typescript
+//4)
 showInformationMessage<T extends MessageItem>(message: string, options: MessageOptions, ...items: T[]): Thenable<T | undefined>
 ```
 
@@ -395,18 +367,11 @@ showSaveDialog(options?: SaveDialogOptions): Thenable<Uri | undefined>
 ### showTextDocument
 
 ```typescript
+//1)
 showTextDocument(document: TextDocument, column?: ViewColumn, preserveFocus?: boolean): Thenable<TextEditor>
-```
-
-### showTextDocument
-
-```typescript
+//2)
 showTextDocument(document: TextDocument, options?: TextDocumentShowOptions): Thenable<TextEditor>
-```
-
-### showTextDocument
-
-```typescript
+//3)
 showTextDocument(uri: Uri, options?: TextDocumentShowOptions): Thenable<TextEditor>
 ```
 
@@ -425,12 +390,9 @@ showWarningMessage<T extends string>(message: string, options: MessageOptions, .
 ### showWarningMessage
 
 ```typescript
+//1)
 showWarningMessage<T extends MessageItem>(message: string, ...items: T[]): Thenable<T | undefined>
-```
-
-### showWarningMessage
-
-```typescript
+//2)
 showWarningMessage<T extends MessageItem>(message: string, options: MessageOptions, ...items: T[]): Thenable<T | undefined>
 ```
 

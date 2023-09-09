@@ -26,5 +26,7 @@ let c: HoverProvider = {
 };
 ```
 
+```typescript
 ProviderResult: T | undefined | null | Thenable<T | undefined | null>
+```
 

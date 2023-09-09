@@ -15,18 +15,11 @@ onDidChangeSessions: Event<AuthenticationSessionsChangeEvent>
 ### getSession
 
 ```typescript
+//1)
 getSession(providerId: string, scopes: readonly string[], options: AuthenticationGetSessionOptions & {createIfNone: true}): Thenable<AuthenticationSession>
-```
-
-### getSession
-
-```typescript
+//2)
 getSession(providerId: string, scopes: readonly string[], options: AuthenticationGetSessionOptions & {forceNewSession: true | AuthenticationForceNewSessionOptions}): Thenable<AuthenticationSession>
-```
-
-### getSession
-
-```typescript
+//3)
 getSession(providerId: string, scopes: readonly string[], options?: AuthenticationGetSessionOptions): Thenable<AuthenticationSession | undefined>
 ```
 

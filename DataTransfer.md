@@ -12,10 +12,10 @@ new DataTransfer(): DataTransfer
 
 ## Methods
 
-### [iterator](): IterableIterator<[mimeType: string, item: DataTransferItem]>
+### iterator
 
 ```typescript
-[iterator](): IterableIterator<[mimeType: string, item: DataTransferItem]>
+iterator: IterableIterator<[mimeType: string, item: DataTransferItem]>
 ```
 
 ### forEach
