@@ -46,3 +46,4 @@ isPreview: boolean
 label: string
 ```
 
+[TabGroup]: TabGroup.md

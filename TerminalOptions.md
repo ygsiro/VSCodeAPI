@@ -76,3 +76,10 @@ shellPath?: string
 strictEnv?: boolean
 ```
 
+[TerminalLocation]: TerminalLocation.md
+[env]: env.md
+[TerminalSplitLocationOptions]: TerminalSplitLocationOptions.md
+[Uri]: Uri.md
+[TerminalEditorLocationOptions]: TerminalEditorLocationOptions.md
+[ThemeColor]: ThemeColor.md
+[ThemeIcon]: ThemeIcon.md

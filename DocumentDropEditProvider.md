@@ -12,3 +12,9 @@ This allows users to drag and drop resources (including resources from external 
 provideDocumentDropEdits(document: TextDocument, position: Position, dataTransfer: DataTransfer, token: CancellationToken): ProviderResult<DocumentDropEdit>
 ```
 
+[DataTransfer]: DataTransfer.md
+[ProviderResult]: ProviderResultT.md
+[Position]: Position.md
+[DocumentDropEdit]: DocumentDropEdit.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

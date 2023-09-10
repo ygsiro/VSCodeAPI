@@ -33,3 +33,4 @@ pattern?: GlobPattern
 scheme?: string
 ```
 
+[GlobPattern]: GlobPattern.md

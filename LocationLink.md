@@ -28,3 +28,5 @@ targetSelectionRange?: Range
 targetUri: Uri
 ```
 
+[Range]: Range.md
+[Uri]: Uri.md

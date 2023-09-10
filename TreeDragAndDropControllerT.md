@@ -30,3 +30,5 @@ handleDrag(source: readonly T[], dataTransfer: DataTransfer, token: Cancellation
 handleDrop(target: T, dataTransfer: DataTransfer, token: CancellationToken): void | Thenable<void>
 ```
 
+[DataTransfer]: DataTransfer.md
+[CancellationToken]: CancellationToken.md

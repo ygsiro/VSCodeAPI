@@ -22,3 +22,6 @@ only: CodeActionKind
 triggerKind: CodeActionTriggerKind
 ```
 
+[Diagnostic]: Diagnostic.md
+[CodeActionKind]: CodeActionKind.md
+[CodeActionTriggerKind]: CodeActionTriggerKind.md

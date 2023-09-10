@@ -80,3 +80,9 @@ dispose(): any
 reveal(viewColumn?: ViewColumn, preserveFocus?: boolean): void
 ```
 
+[WebviewPanelOnDidChangeViewStateEvent]: WebviewPanelOnDidChangeViewStateEvent.md
+[Uri]: Uri.md
+[ViewColumn]: ViewColumn.md
+[Webview]: Webview.md
+[WebviewPanelOptions]: WebviewPanelOptions.md
+[Event]: EventT.md

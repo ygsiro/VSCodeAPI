@@ -16,3 +16,10 @@ provideColorPresentations(color: Color, context: {document: TextDocument, range:
 provideDocumentColors(document: TextDocument, token: CancellationToken): ProviderResult<ColorInformation[]>
 ```
 
+[Color]: Color.md
+[Range]: Range.md
+[ProviderResult]: ProviderResultT.md
+[ColorInformation]: ColorInformation.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md
+[ColorPresentation]: ColorPresentation.md

@@ -16,3 +16,5 @@ textEditor: TextEditor
 viewColumn: ViewColumn
 ```
 
+[TextEditor]: TextEditor.md
+[ViewColumn]: ViewColumn.md

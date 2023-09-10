@@ -24,3 +24,7 @@ provideCodeLenses(document: TextDocument, token: CancellationToken): ProviderRes
 resolveCodeLens(codeLens: T, token: CancellationToken): ProviderResult<T>
 ```
 
+[Event]: EventT.md
+[ProviderResult]: ProviderResultT.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

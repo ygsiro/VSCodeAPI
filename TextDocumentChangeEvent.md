@@ -22,3 +22,6 @@ document: TextDocument
 reason: TextDocumentChangeReason
 ```
 
+[TextDocumentContentChangeEvent]: TextDocumentContentChangeEvent.md
+[TextDocumentChangeReason]: TextDocumentChangeReason.md
+[TextDocument]: TextDocument.md

@@ -16,3 +16,4 @@ new InlineCompletionList(items: InlineCompletionItem[]): InlineCompletionList
 items: InlineCompletionItem[]
 ```
 
+[InlineCompletionItem]: InlineCompletionItem.md

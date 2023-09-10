@@ -30,3 +30,4 @@ asFile(): DataTransferFile
 asString(): Thenable<string>
 ```
 
+[DataTransferFile]: DataTransferFile.md

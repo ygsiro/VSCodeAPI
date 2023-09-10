@@ -54,3 +54,4 @@ valueSelection?: [number, number]
 validateInput(value: string): string | InputBoxValidationMessage | Thenable<string | InputBoxValidationMessage>
 ```
 
+[InputBoxValidationMessage]: InputBoxValidationMessage.md

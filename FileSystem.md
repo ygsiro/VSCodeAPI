@@ -60,3 +60,6 @@ stat(uri: Uri): Thenable<FileStat>
 writeFile(uri: Uri, content: Uint8Array): Thenable<void>
 ```
 
+[Uri]: Uri.md
+[FileStat]: FileStat.md
+[FileType]: FileType.md

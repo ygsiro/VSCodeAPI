@@ -22,3 +22,5 @@ additionalEdit?: WorkspaceEdit
 insertText: string | SnippetString
 ```
 
+[SnippetString]: SnippetString.md
+[WorkspaceEdit]: WorkspaceEdit.md

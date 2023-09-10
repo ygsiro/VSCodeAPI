@@ -28,3 +28,5 @@ selections?: readonly NotebookRange[]
 viewColumn?: ViewColumn
 ```
 
+[NotebookRange]: NotebookRange.md
+[ViewColumn]: ViewColumn.md

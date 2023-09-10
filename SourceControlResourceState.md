@@ -28,3 +28,6 @@ decorations?: SourceControlResourceDecorations
 resourceUri: Uri
 ```
 
+[SourceControlResourceDecorations]: SourceControlResourceDecorations.md
+[Uri]: Uri.md
+[Command]: Command.md

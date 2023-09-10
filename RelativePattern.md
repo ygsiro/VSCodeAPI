@@ -28,3 +28,5 @@ baseUri: Uri
 pattern: string
 ```
 
+[WorkspaceFolder]: WorkspaceFolder.md
+[Uri]: Uri.md

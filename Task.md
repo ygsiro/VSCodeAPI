@@ -80,3 +80,11 @@ scope: WorkspaceFolder | Global | Workspace
 source: string
 ```
 
+[ProcessExecution]: ProcessExecution.md
+[RunOptions]: RunOptions.md
+[TaskPresentationOptions]: TaskPresentationOptions.md
+[WorkspaceFolder]: WorkspaceFolder.md
+[TaskGroup]: TaskGroup.md
+[ShellExecution]: ShellExecution.md
+[TaskDefinition]: TaskDefinition.md
+[CustomExecution]: CustomExecution.md

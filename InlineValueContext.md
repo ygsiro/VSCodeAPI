@@ -16,3 +16,4 @@ frameId: number
 stoppedLocation: Range
 ```
 
+[Range]: Range.md

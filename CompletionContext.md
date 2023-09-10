@@ -16,3 +16,4 @@ triggerCharacter: string
 triggerKind: CompletionTriggerKind
 ```
 
+[CompletionTriggerKind]: CompletionTriggerKind.md

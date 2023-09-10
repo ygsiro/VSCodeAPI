@@ -22,3 +22,6 @@ contents: MarkdownString | MarkedString[]
 range?: Range
 ```
 
+[Range]: Range.md
+[MarkedString]: MarkedString.md
+[MarkdownString]: MarkdownString.md

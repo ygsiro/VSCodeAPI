@@ -20,3 +20,7 @@ openCustomDocument(uri: Uri, openContext: CustomDocumentOpenContext, token: Canc
 resolveCustomEditor(document: T, webviewPanel: WebviewPanel, token: CancellationToken): void | Thenable<void>
 ```
 
+[Uri]: Uri.md
+[CustomDocumentOpenContext]: CustomDocumentOpenContext.md
+[WebviewPanel]: WebviewPanel.md
+[CancellationToken]: CancellationToken.md

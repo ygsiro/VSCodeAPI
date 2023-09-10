@@ -70,3 +70,9 @@ watch(uri: Uri, options: {excludes: readonly string[], recursive: boolean}): Dis
 writeFile(uri: Uri, content: Uint8Array, options: {create: boolean, overwrite: boolean}): void | Thenable<void>
 ```
 
+[Uri]: Uri.md
+[Disposable]: Disposable.md
+[FileChangeEvent]: FileChangeEvent.md
+[FileStat]: FileStat.md
+[Event]: EventT.md
+[FileType]: FileType.md

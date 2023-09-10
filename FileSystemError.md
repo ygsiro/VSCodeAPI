@@ -56,3 +56,4 @@ new FileSystemError(messageOrUri?: string | Uri): FileSystemError
 code: string
 ```
 
+[Uri]: Uri.md

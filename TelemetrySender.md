@@ -33,3 +33,4 @@ sendErrorData(error: Error, data?: Record<string, any>): void
 sendEventData(eventName: string, data?: Record<string, any>): void
 ```
 
+[env]: env.md

@@ -22,3 +22,4 @@ documentation?: string | MarkdownString
 label: string | [number, number]
 ```
 
+[MarkdownString]: MarkdownString.md

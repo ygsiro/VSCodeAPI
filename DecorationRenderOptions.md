@@ -172,3 +172,9 @@ rangeBehavior?: DecorationRangeBehavior
 textDecoration?: string
 ```
 
+[ThemableDecorationRenderOptions]: ThemableDecorationRenderOptions.md
+[ThemableDecorationAttachmentRenderOptions]: ThemableDecorationAttachmentRenderOptions.md
+[OverviewRulerLane]: OverviewRulerLane.md
+[Uri]: Uri.md
+[ThemeColor]: ThemeColor.md
+[DecorationRangeBehavior]: DecorationRangeBehavior.md

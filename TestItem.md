@@ -78,3 +78,8 @@ tags: readonly TestTag[]
 uri: Uri
 ```
 
+[Range]: Range.md
+[MarkdownString]: MarkdownString.md
+[Uri]: Uri.md
+[TestItemCollection]: TestItemCollection.md
+[TestTag]: TestTag.md

@@ -87,3 +87,11 @@ set(uri: Uri, edits: readonly NotebookEdit[]): void
 set(uri: Uri, edits: readonly [NotebookEdit, WorkspaceEditEntryMetadata][]): void
 ```
 
+[Range]: Range.md
+[DataTransferFile]: DataTransferFile.md
+[Position]: Position.md
+[NotebookEdit]: NotebookEdit.md
+[Uri]: Uri.md
+[SnippetTextEdit]: SnippetTextEdit.md
+[WorkspaceEditEntryMetadata]: WorkspaceEditEntryMetadata.md
+[TextEdit]: TextEdit.md

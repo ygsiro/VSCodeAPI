@@ -86,3 +86,9 @@ dispose(): any
 reveal(element: T, options?: {expand: number | boolean, focus: boolean, select: boolean}): Thenable<void>
 ```
 
+[TreeViewVisibilityChangeEvent]: TreeViewVisibilityChangeEvent.md
+[TreeCheckboxChangeEvent]: TreeCheckboxChangeEventT.md
+[TreeViewSelectionChangeEvent]: TreeViewSelectionChangeEventT.md
+[Event]: EventT.md
+[ViewBadge]: ViewBadge.md
+[TreeViewExpansionEvent]: TreeViewExpansionEventT.md

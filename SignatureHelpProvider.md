@@ -10,3 +10,9 @@ The signature help provider interface defines the contract between extensions an
 provideSignatureHelp(document: TextDocument, position: Position, token: CancellationToken, context: SignatureHelpContext): ProviderResult<SignatureHelp>
 ```
 
+[SignatureHelpContext]: SignatureHelpContext.md
+[ProviderResult]: ProviderResultT.md
+[SignatureHelp]: SignatureHelp.md
+[Position]: Position.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

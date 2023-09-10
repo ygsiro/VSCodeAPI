@@ -40,3 +40,6 @@ strikeThrough?: boolean
 tooltip?: string
 ```
 
+[ThemeIcon]: ThemeIcon.md
+[Uri]: Uri.md
+[SourceControlResourceThemableDecorations]: SourceControlResourceThemableDecorations.md

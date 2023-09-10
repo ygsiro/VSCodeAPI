@@ -34,3 +34,5 @@ showCollapseAll?: boolean
 treeDataProvider: TreeDataProvider<T>
 ```
 
+[TreeDataProvider]: TreeDataProviderT.md
+[TreeDragAndDropController]: TreeDragAndDropControllerT.md

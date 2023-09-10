@@ -52,3 +52,8 @@ source?: string
 tags?: DiagnosticTag[]
 ```
 
+[DiagnosticRelatedInformation]: DiagnosticRelatedInformation.md
+[DiagnosticSeverity]: DiagnosticSeverity.md
+[Range]: Range.md
+[DiagnosticTag]: DiagnosticTag.md
+[Uri]: Uri.md

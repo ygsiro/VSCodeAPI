@@ -18,3 +18,8 @@ onDidChangeFileDecorations?: Event<Uri | Uri[]>
 provideFileDecoration(uri: Uri, token: CancellationToken): ProviderResult<FileDecoration>
 ```
 
+[Event]: EventT.md
+[ProviderResult]: ProviderResultT.md
+[FileDecoration]: FileDecoration.md
+[Uri]: Uri.md
+[CancellationToken]: CancellationToken.md

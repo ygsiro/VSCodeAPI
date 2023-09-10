@@ -14,3 +14,4 @@ after?: ThemableDecorationAttachmentRenderOptions
 before?: ThemableDecorationAttachmentRenderOptions
 ```
 
+[ThemableDecorationAttachmentRenderOptions]: ThemableDecorationAttachmentRenderOptions.md

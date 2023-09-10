@@ -10,3 +10,4 @@ An event describing the change in Configuration
 affectsConfiguration(section: string, scope?: ConfigurationScope): boolean
 ```
 
+[ConfigurationScope]: ConfigurationScope.md

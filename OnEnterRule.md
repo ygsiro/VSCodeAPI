@@ -28,3 +28,4 @@ beforeText: RegExp
 previousLineText?: RegExp
 ```
 
+[EnterAction]: EnterAction.md

@@ -44,3 +44,6 @@ asWebviewUri(localResource: Uri): Uri
 postMessage(message: any): Thenable<boolean>
 ```
 
+[Event]: EventT.md
+[Uri]: Uri.md
+[WebviewOptions]: WebviewOptions.md

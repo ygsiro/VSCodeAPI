@@ -16,3 +16,5 @@ type: FileChangeType
 uri: Uri
 ```
 
+[FileChangeType]: FileChangeType.md
+[Uri]: Uri.md

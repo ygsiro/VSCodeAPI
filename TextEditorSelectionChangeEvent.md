@@ -22,3 +22,6 @@ selections: readonly Selection[]
 textEditor: TextEditor
 ```
 
+[TextEditor]: TextEditor.md
+[TextEditorSelectionChangeKind]: TextEditorSelectionChangeKind.md
+[Selection]: Selection.md

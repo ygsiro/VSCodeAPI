@@ -18,3 +18,9 @@ onDidChangeFoldingRanges?: Event<void>
 provideFoldingRanges(document: TextDocument, context: FoldingContext, token: CancellationToken): ProviderResult<FoldingRange[]>
 ```
 
+[FoldingRange]: FoldingRange.md
+[Event]: EventT.md
+[ProviderResult]: ProviderResultT.md
+[FoldingContext]: FoldingContext.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

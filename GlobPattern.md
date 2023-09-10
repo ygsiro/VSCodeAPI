@@ -17,3 +17,4 @@ Note: a backslash (``) is not valid within a glob pattern. If you have an existi
 GlobPattern: string | RelativePattern
 ```
 
+[RelativePattern]: RelativePattern.md

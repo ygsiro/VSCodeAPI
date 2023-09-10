@@ -22,3 +22,5 @@ from: CallHierarchyItem
 fromRanges: Range[]
 ```
 
+[Range]: Range.md
+[CallHierarchyItem]: CallHierarchyItem.md

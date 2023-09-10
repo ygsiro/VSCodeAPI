@@ -52,3 +52,5 @@ ignoreDeleteEvents: boolean
 dispose(): any
 ```
 
+[Event]: EventT.md
+[Uri]: Uri.md

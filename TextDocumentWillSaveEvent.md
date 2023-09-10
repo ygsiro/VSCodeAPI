@@ -32,3 +32,6 @@ waitUntil(thenable: Thenable<readonly TextEdit[]>): void
 waitUntil(thenable: Thenable<any>): void
 ```
 
+[TextDocumentSaveReason]: TextDocumentSaveReason.md
+[TextEdit]: TextEdit.md
+[TextDocument]: TextDocument.md

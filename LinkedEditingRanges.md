@@ -50,3 +50,6 @@ range: Range
 uri: Uri
 ```
 
+[Range]: Range.md
+[Position]: Position.md
+[Uri]: Uri.md

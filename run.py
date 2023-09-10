@@ -37,7 +37,7 @@ if __name__ == "__main__":
         cl = set(re.findall(r"\w+", code_link(fname)))
         link_list = []
         for word in cl:
-            if word in wl:
+            if word in wl and wl[word] != fname:
                 link_list.append(f"[{word}]: {wl[word]}\n")
         if link_list:
             with open(fname, mode="a") as a_f:

@@ -22,3 +22,4 @@ parent?: SelectionRange
 range: Range
 ```
 
+[Range]: Range.md

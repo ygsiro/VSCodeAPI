@@ -91,3 +91,5 @@ with(start?: Position, end?: Position): Range
 with(change: {end: Position, start: Position}): Range
 ```
 
+[Range]: Range.md
+[Position]: Position.md

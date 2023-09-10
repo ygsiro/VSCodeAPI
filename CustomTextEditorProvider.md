@@ -12,3 +12,6 @@ Text based custom editors use a TextDocument as their data model. This considera
 resolveCustomTextEditor(document: TextDocument, webviewPanel: WebviewPanel, token: CancellationToken): void | Thenable<void>
 ```
 
+[CancellationToken]: CancellationToken.md
+[TextDocument]: TextDocument.md
+[WebviewPanel]: WebviewPanel.md

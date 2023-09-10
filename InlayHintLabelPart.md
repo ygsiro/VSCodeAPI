@@ -34,3 +34,5 @@ tooltip?: string | MarkdownString
 value: string
 ```
 
+[Command]: Command.md
+[MarkdownString]: MarkdownString.md

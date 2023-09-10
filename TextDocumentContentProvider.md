@@ -20,3 +20,7 @@ onDidChange?: Event<Uri>
 provideTextDocumentContent(uri: Uri, token: CancellationToken): ProviderResult<string>
 ```
 
+[Event]: EventT.md
+[ProviderResult]: ProviderResultT.md
+[Uri]: Uri.md
+[CancellationToken]: CancellationToken.md

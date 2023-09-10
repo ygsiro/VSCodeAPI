@@ -28,3 +28,4 @@ command: string
 options?: DebugAdapterExecutableOptions
 ```
 
+[DebugAdapterExecutableOptions]: DebugAdapterExecutableOptions.md

@@ -78,3 +78,14 @@ setDecorations(decorationType: TextEditorDecorationType, rangesOrOptions: readon
 show(column?: ViewColumn): void
 ```
 
+[Range]: Range.md
+[TextEditorEdit]: TextEditorEdit.md
+[Position]: Position.md
+[TextEditorRevealType]: TextEditorRevealType.md
+[ViewColumn]: ViewColumn.md
+[TextEditorDecorationType]: TextEditorDecorationType.md
+[SnippetString]: SnippetString.md
+[TextDocument]: TextDocument.md
+[DecorationOptions]: DecorationOptions.md
+[Selection]: Selection.md
+[TextEditorOptions]: TextEditorOptions.md

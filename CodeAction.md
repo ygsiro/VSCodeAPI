@@ -54,3 +54,7 @@ kind?: CodeActionKind
 title: string
 ```
 
+[Diagnostic]: Diagnostic.md
+[CodeActionKind]: CodeActionKind.md
+[Command]: Command.md
+[WorkspaceEdit]: WorkspaceEdit.md

@@ -28,3 +28,5 @@ lineNumbers?: TextEditorLineNumbersStyle
 tabSize?: string | number
 ```
 
+[TextEditorCursorStyle]: TextEditorCursorStyle.md
+[TextEditorLineNumbersStyle]: TextEditorLineNumbersStyle.md

@@ -28,3 +28,5 @@ triggerCharacter: string
 triggerKind: SignatureHelpTriggerKind
 ```
 
+[SignatureHelp]: SignatureHelp.md
+[SignatureHelpTriggerKind]: SignatureHelpTriggerKind.md

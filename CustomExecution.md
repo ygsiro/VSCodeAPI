@@ -8,3 +8,5 @@ Class used to execute an extension callback as a task.
 new CustomExecution(callback: (resolvedDefinition: TaskDefinition) => Thenable<Pseudoterminal>): CustomExecution
 ```
 
+[Pseudoterminal]: Pseudoterminal.md
+[TaskDefinition]: TaskDefinition.md

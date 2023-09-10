@@ -29,3 +29,11 @@ getSession(providerId: string, scopes: readonly string[], options?: Authenticati
 registerAuthenticationProvider(id: string, label: string, provider: AuthenticationProvider, options?: AuthenticationProviderOptions): Disposable
 ```
 
+[AuthenticationSessionsChangeEvent]: AuthenticationSessionsChangeEvent.md
+[AuthenticationProviderOptions]: AuthenticationProviderOptions.md
+[AuthenticationForceNewSessionOptions]: AuthenticationForceNewSessionOptions.md
+[AuthenticationProvider]: AuthenticationProvider.md
+[Disposable]: Disposable.md
+[AuthenticationGetSessionOptions]: AuthenticationGetSessionOptions.md
+[AuthenticationSession]: AuthenticationSession.md
+[Event]: EventT.md

@@ -44,3 +44,8 @@ close(tab: Tab | readonly Tab[], preserveFocus?: boolean): Thenable<boolean>
 close(tabGroup: TabGroup | readonly TabGroup[], preserveFocus?: boolean): Thenable<boolean>
 ```
 
+[TabChangeEvent]: TabChangeEvent.md
+[TabGroupChangeEvent]: TabGroupChangeEvent.md
+[Event]: EventT.md
+[TabGroup]: TabGroup.md
+[Tab]: Tab.md

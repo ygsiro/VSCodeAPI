@@ -66,3 +66,5 @@ newNotebookMetadata?:
 range: NotebookRange
 ```
 
+[NotebookRange]: NotebookRange.md
+[NotebookCellData]: NotebookCellData.md

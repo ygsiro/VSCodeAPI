@@ -8,3 +8,4 @@ Provides additional metadata over normal Location definitions, including the ran
 DefinitionLink: LocationLink
 ```
 
+[LocationLink]: LocationLink.md

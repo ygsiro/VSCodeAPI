@@ -26,3 +26,4 @@ uri?: Uri
 data(): Thenable<Uint8Array>
 ```
 
+[Uri]: Uri.md

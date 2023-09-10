@@ -18,3 +18,8 @@ onDidChangeCellStatusBarItems?: Event<void>
 provideCellStatusBarItems(cell: NotebookCell, token: CancellationToken): ProviderResult<NotebookCellStatusBarItem | NotebookCellStatusBarItem[]>
 ```
 
+[Event]: EventT.md
+[NotebookCell]: NotebookCell.md
+[ProviderResult]: ProviderResultT.md
+[NotebookCellStatusBarItem]: NotebookCellStatusBarItem.md
+[CancellationToken]: CancellationToken.md

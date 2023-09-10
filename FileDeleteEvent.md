@@ -10,3 +10,4 @@ An event that is fired after files are deleted.
 files: readonly Uri[]
 ```
 
+[Uri]: Uri.md

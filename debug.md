@@ -104,3 +104,19 @@ startDebugging(folder: WorkspaceFolder, nameOrConfiguration: string | DebugConfi
 stopDebugging(session?: DebugSession): Thenable<void>
 ```
 
+[DebugConfiguration]: DebugConfiguration.md
+[BreakpointsChangeEvent]: BreakpointsChangeEvent.md
+[DebugSession]: DebugSession.md
+[DebugConfigurationProvider]: DebugConfigurationProvider.md
+[DebugAdapterDescriptorFactory]: DebugAdapterDescriptorFactory.md
+[Uri]: Uri.md
+[DebugProtocolSource]: DebugProtocolSource.md
+[Disposable]: Disposable.md
+[WorkspaceFolder]: WorkspaceFolder.md
+[DebugSessionOptions]: DebugSessionOptions.md
+[DebugSessionCustomEvent]: DebugSessionCustomEvent.md
+[Breakpoint]: Breakpoint.md
+[DebugConsole]: DebugConsole.md
+[DebugConfigurationProviderTriggerKind]: DebugConfigurationProviderTriggerKind.md
+[Event]: EventT.md
+[DebugAdapterTrackerFactory]: DebugAdapterTrackerFactory.md

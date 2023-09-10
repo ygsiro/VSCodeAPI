@@ -10,3 +10,4 @@ An event that is fired after files are created.
 files: readonly Uri[]
 ```
 
+[Uri]: Uri.md

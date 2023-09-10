@@ -18,3 +18,4 @@ isCancellationRequested: boolean
 onCancellationRequested: Event<any>
 ```
 
+[Event]: EventT.md

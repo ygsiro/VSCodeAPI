@@ -22,3 +22,4 @@ range: Range
 text: string
 ```
 
+[Range]: Range.md

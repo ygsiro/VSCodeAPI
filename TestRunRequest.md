@@ -36,3 +36,5 @@ include: readonly TestItem[]
 profile: TestRunProfile
 ```
 
+[TestRunProfile]: TestRunProfile.md
+[TestItem]: TestItem.md

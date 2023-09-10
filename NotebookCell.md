@@ -48,3 +48,8 @@ notebook: NotebookDocument
 outputs: readonly NotebookCellOutput[]
 ```
 
+[NotebookDocument]: NotebookDocument.md
+[NotebookCellOutput]: NotebookCellOutput.md
+[NotebookCellExecutionSummary]: NotebookCellExecutionSummary.md
+[NotebookCellKind]: NotebookCellKind.md
+[TextDocument]: TextDocument.md

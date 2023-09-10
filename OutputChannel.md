@@ -62,3 +62,4 @@ show(preserveFocus?: boolean): void
 show(column?: ViewColumn, preserveFocus?: boolean): void
 ```
 
+[ViewColumn]: ViewColumn.md

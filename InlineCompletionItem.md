@@ -36,3 +36,6 @@ insertText: string | SnippetString
 range?: Range
 ```
 
+[Range]: Range.md
+[SnippetString]: SnippetString.md
+[Command]: Command.md

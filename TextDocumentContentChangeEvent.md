@@ -28,3 +28,4 @@ rangeOffset: number
 text: string
 ```
 
+[Range]: Range.md

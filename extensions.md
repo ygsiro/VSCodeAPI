@@ -52,3 +52,6 @@ onDidChange: Event<void>
 getExtension<T>(extensionId: string): Extension<T> | undefined
 ```
 
+[Extension]: ExtensionT.md
+[ExtensionContext]: ExtensionContext.md
+[Event]: EventT.md

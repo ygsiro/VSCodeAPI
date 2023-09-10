@@ -35,3 +35,5 @@ isResolved: boolean
 range: Range
 ```
 
+[Range]: Range.md
+[Command]: Command.md

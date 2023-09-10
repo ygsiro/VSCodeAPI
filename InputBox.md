@@ -130,3 +130,6 @@ hide(): void
 show(): void
 ```
 
+[InputBoxValidationMessage]: InputBoxValidationMessage.md
+[Event]: EventT.md
+[QuickInputButton]: QuickInputButton.md

@@ -30,3 +30,4 @@ cancel(): void
 dispose(): void
 ```
 
+[CancellationToken]: CancellationToken.md

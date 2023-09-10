@@ -22,3 +22,7 @@ range: Range
 renderOptions?: DecorationInstanceRenderOptions
 ```
 
+[Range]: Range.md
+[MarkedString]: MarkedString.md
+[DecorationInstanceRenderOptions]: DecorationInstanceRenderOptions.md
+[MarkdownString]: MarkdownString.md

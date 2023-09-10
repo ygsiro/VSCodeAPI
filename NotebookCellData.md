@@ -46,3 +46,6 @@ outputs?: NotebookCellOutput[]
 value: string
 ```
 
+[NotebookCellOutput]: NotebookCellOutput.md
+[NotebookCellExecutionSummary]: NotebookCellExecutionSummary.md
+[NotebookCellKind]: NotebookCellKind.md

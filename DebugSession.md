@@ -54,3 +54,7 @@ customRequest(command: string, args?: any): Thenable<any>
 getDebugProtocolBreakpoint(breakpoint: Breakpoint): Thenable<DebugProtocolBreakpoint>
 ```
 
+[DebugConfiguration]: DebugConfiguration.md
+[WorkspaceFolder]: WorkspaceFolder.md
+[Breakpoint]: Breakpoint.md
+[DebugProtocolBreakpoint]: DebugProtocolBreakpoint.md

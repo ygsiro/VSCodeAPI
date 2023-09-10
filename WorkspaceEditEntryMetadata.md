@@ -28,3 +28,5 @@ label: string
 needsConfirmation: boolean
 ```
 
+[ThemeIcon]: ThemeIcon.md
+[Uri]: Uri.md

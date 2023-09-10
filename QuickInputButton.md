@@ -16,3 +16,5 @@ iconPath: Uri | ThemeIcon | {dark: Uri, light: Uri}
 tooltip?: string
 ```
 
+[ThemeIcon]: ThemeIcon.md
+[Uri]: Uri.md

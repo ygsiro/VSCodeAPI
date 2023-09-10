@@ -44,3 +44,6 @@ name: string
 tags?: readonly Deprecated[]
 ```
 
+[Range]: Range.md
+[Uri]: Uri.md
+[SymbolKind]: SymbolKind.md

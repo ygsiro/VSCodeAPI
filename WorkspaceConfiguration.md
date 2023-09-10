@@ -83,3 +83,6 @@ inspect<T>(section: string): {defaultLanguageValue: T, defaultValue: T, globalLa
 update(section: string, value: any, configurationTarget?: boolean | ConfigurationTarget, overrideInLanguage?: boolean): Thenable<void>
 ```
 
+[ConfigurationTarget]: ConfigurationTarget.md
+[workspace]: workspace.md
+[tasks]: tasks.md

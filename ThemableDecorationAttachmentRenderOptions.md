@@ -74,3 +74,5 @@ textDecoration?: string
 width?: string
 ```
 
+[ThemeColor]: ThemeColor.md
+[Uri]: Uri.md

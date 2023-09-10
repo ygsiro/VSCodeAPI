@@ -24,3 +24,10 @@ provideCodeActions(document: TextDocument, range: Range | Selection, context: Co
 resolveCodeAction(codeAction: T, token: CancellationToken): ProviderResult<T>
 ```
 
+[ProviderResult]: ProviderResultT.md
+[Range]: Range.md
+[CodeActionContext]: CodeActionContext.md
+[Command]: Command.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md
+[Selection]: Selection.md

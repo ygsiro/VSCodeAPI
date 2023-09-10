@@ -18,3 +18,10 @@ onDidChangeInlineValues?: Event<void>
 provideInlineValues(document: TextDocument, viewPort: Range, context: InlineValueContext, token: CancellationToken): ProviderResult<InlineValue[]>
 ```
 
+[InlineValueContext]: InlineValueContext.md
+[Event]: EventT.md
+[Range]: Range.md
+[ProviderResult]: ProviderResultT.md
+[InlineValue]: InlineValue.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

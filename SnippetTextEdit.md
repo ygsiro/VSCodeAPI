@@ -38,3 +38,6 @@ range: Range
 snippet: SnippetString
 ```
 
+[Range]: Range.md
+[Position]: Position.md
+[SnippetString]: SnippetString.md

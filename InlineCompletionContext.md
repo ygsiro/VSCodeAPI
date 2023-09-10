@@ -16,3 +16,5 @@ selectedCompletionInfo: SelectedCompletionInfo
 triggerKind: InlineCompletionTriggerKind
 ```
 
+[SelectedCompletionInfo]: SelectedCompletionInfo.md
+[InlineCompletionTriggerKind]: InlineCompletionTriggerKind.md

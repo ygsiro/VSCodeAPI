@@ -46,3 +46,6 @@ text: string
 tooltip?: string
 ```
 
+[AccessibilityInformation]: AccessibilityInformation.md
+[NotebookCellStatusBarAlignment]: NotebookCellStatusBarAlignment.md
+[Command]: Command.md

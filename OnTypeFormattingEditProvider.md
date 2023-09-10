@@ -10,3 +10,9 @@ The document formatting provider interface defines the contract between extensio
 provideOnTypeFormattingEdits(document: TextDocument, position: Position, ch: string, options: FormattingOptions, token: CancellationToken): ProviderResult<TextEdit[]>
 ```
 
+[FormattingOptions]: FormattingOptions.md
+[ProviderResult]: ProviderResultT.md
+[Position]: Position.md
+[TextEdit]: TextEdit.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

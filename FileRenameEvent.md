@@ -10,3 +10,4 @@ An event that is fired after files are renamed.
 files: readonly {newUri: Uri, oldUri: Uri}[]
 ```
 
+[Uri]: Uri.md

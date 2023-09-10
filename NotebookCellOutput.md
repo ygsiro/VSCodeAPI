@@ -22,3 +22,4 @@ items: NotebookCellOutputItem[]
 metadata?:
 ```
 
+[NotebookCellOutputItem]: NotebookCellOutputItem.md

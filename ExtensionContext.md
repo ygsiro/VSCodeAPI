@@ -104,3 +104,8 @@ workspaceState: Memento
 asAbsolutePath(relativePath: string): string
 ```
 
+[Extension]: ExtensionT.md
+[Uri]: Uri.md
+[GlobalEnvironmentVariableCollection]: GlobalEnvironmentVariableCollection.md
+[SecretStorage]: SecretStorage.md
+[ExtensionMode]: ExtensionMode.md

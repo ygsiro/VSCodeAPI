@@ -36,3 +36,4 @@ get(mimeType: string): DataTransferItem
 set(mimeType: string, value: DataTransferItem): void
 ```
 
+[DataTransferItem]: DataTransferItem.md

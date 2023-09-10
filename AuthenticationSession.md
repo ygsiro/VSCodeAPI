@@ -28,3 +28,4 @@ id: string
 scopes: readonly string[]
 ```
 
+[AuthenticationSessionAccountInformation]: AuthenticationSessionAccountInformation.md

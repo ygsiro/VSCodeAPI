@@ -34,3 +34,5 @@ shellArgs?: string[]
 shellQuoting?: ShellQuotingOptions
 ```
 
+[env]: env.md
+[ShellQuotingOptions]: ShellQuotingOptions.md

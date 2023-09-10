@@ -111,3 +111,8 @@ validatePosition(position: Position): Position
 validateRange(range: Range): Range
 ```
 
+[Range]: Range.md
+[Position]: Position.md
+[Uri]: Uri.md
+[TextLine]: TextLine.md
+[EndOfLine]: EndOfLine.md

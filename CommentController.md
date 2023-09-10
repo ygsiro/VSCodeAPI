@@ -48,3 +48,11 @@ createCommentThread(uri: Uri, range: Range, comments: readonly Comment[]): Comme
 dispose(): void
 ```
 
+[Range]: Range.md
+[comments]: comments.md
+[Uri]: Uri.md
+[CommentReaction]: CommentReaction.md
+[Comment]: Comment.md
+[CommentingRangeProvider]: CommentingRangeProvider.md
+[CommentThread]: CommentThread.md
+[CommentOptions]: CommentOptions.md

@@ -59,3 +59,5 @@ set(uri: Uri, diagnostics: readonly Diagnostic[]): void
 set(entries: readonly [Uri, readonly Diagnostic[]][]): void
 ```
 
+[Uri]: Uri.md
+[Diagnostic]: Diagnostic.md

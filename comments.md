@@ -8,3 +8,4 @@
 createCommentController(id: string, label: string): CommentController
 ```
 
+[CommentController]: CommentController.md

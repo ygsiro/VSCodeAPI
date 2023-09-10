@@ -16,3 +16,4 @@ quoting: ShellQuoting
 value: string
 ```
 
+[ShellQuoting]: ShellQuoting.md

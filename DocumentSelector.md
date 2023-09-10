@@ -14,3 +14,4 @@ let sel:DocumentSelector = { scheme: 'file', language: 'typescript' };
 DocumentSelector: DocumentFilter | string | ReadonlyArray<DocumentFilter | string>
 ```
 
+[DocumentFilter]: DocumentFilter.md

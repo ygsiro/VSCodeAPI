@@ -58,3 +58,4 @@ logError(error: Error, data?: Record<string, any>): void
 logUsage(eventName: string, data?: Record<string, any>): void
 ```
 
+[Event]: EventT.md

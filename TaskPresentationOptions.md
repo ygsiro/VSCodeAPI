@@ -46,3 +46,5 @@ reveal?: TaskRevealKind
 showReuseMessage?: boolean
 ```
 
+[TaskRevealKind]: TaskRevealKind.md
+[TaskPanelKind]: TaskPanelKind.md

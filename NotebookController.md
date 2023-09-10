@@ -90,3 +90,8 @@ dispose(): void
 updateNotebookAffinity(notebook: NotebookDocument, affinity: NotebookControllerAffinity): void
 ```
 
+[NotebookControllerAffinity]: NotebookControllerAffinity.md
+[NotebookCellExecution]: NotebookCellExecution.md
+[NotebookCell]: NotebookCell.md
+[Event]: EventT.md
+[NotebookDocument]: NotebookDocument.md

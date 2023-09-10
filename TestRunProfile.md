@@ -54,3 +54,7 @@ tag: TestTag
 dispose(): void
 ```
 
+[TestRunRequest]: TestRunRequest.md
+[TestRunProfileKind]: TestRunProfileKind.md
+[TestTag]: TestTag.md
+[CancellationToken]: CancellationToken.md

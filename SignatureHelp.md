@@ -28,3 +28,4 @@ activeSignature: number
 signatures: SignatureInformation[]
 ```
 
+[SignatureInformation]: SignatureInformation.md

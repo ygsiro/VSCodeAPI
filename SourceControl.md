@@ -72,3 +72,8 @@ createResourceGroup(id: string, label: string): SourceControlResourceGroup
 dispose(): void
 ```
 
+[SourceControlInputBox]: SourceControlInputBox.md
+[Uri]: Uri.md
+[QuickDiffProvider]: QuickDiffProvider.md
+[SourceControlResourceGroup]: SourceControlResourceGroup.md
+[Command]: Command.md

@@ -16,3 +16,9 @@ provideDocumentRangeFormattingEdits(document: TextDocument, range: Range, option
 provideDocumentRangesFormattingEdits(document: TextDocument, ranges: Range[], options: FormattingOptions, token: CancellationToken): ProviderResult<TextEdit[]>
 ```
 
+[FormattingOptions]: FormattingOptions.md
+[ProviderResult]: ProviderResultT.md
+[Range]: Range.md
+[TextEdit]: TextEdit.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

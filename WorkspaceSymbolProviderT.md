@@ -16,3 +16,5 @@ provideWorkspaceSymbols(query: string, token: CancellationToken): ProviderResult
 resolveWorkspaceSymbol(symbol: T, token: CancellationToken): ProviderResult<T>
 ```
 
+[ProviderResult]: ProviderResultT.md
+[CancellationToken]: CancellationToken.md

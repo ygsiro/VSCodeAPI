@@ -22,3 +22,4 @@ closed: readonly TabGroup[]
 opened: readonly TabGroup[]
 ```
 
+[TabGroup]: TabGroup.md

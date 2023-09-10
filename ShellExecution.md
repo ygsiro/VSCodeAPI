@@ -36,3 +36,5 @@ commandLine: string
 options?: ShellExecutionOptions
 ```
 
+[ShellExecutionOptions]: ShellExecutionOptions.md
+[ShellQuotedString]: ShellQuotedString.md

@@ -6,3 +6,6 @@ The configuration scope which can be a a 'resource' or a languageId or both or a
 ConfigurationScope: Uri | TextDocument | WorkspaceFolder | {languageId: string, uri: Uri}
 ```
 
+[WorkspaceFolder]: WorkspaceFolder.md
+[Uri]: Uri.md
+[TextDocument]: TextDocument.md

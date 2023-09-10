@@ -24,3 +24,8 @@ provideInlayHints(document: TextDocument, range: Range, token: CancellationToken
 resolveInlayHint(hint: T, token: CancellationToken): ProviderResult<T>
 ```
 
+[Event]: EventT.md
+[Range]: Range.md
+[ProviderResult]: ProviderResultT.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

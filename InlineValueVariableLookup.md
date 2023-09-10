@@ -28,3 +28,4 @@ range: Range
 variableName?: string
 ```
 
+[Range]: Range.md

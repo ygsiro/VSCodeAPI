@@ -40,3 +40,10 @@ name: string
 pty: Pseudoterminal
 ```
 
+[ThemeIcon]: ThemeIcon.md
+[TerminalEditorLocationOptions]: TerminalEditorLocationOptions.md
+[ThemeColor]: ThemeColor.md
+[Uri]: Uri.md
+[TerminalLocation]: TerminalLocation.md
+[Pseudoterminal]: Pseudoterminal.md
+[TerminalSplitLocationOptions]: TerminalSplitLocationOptions.md

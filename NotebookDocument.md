@@ -72,3 +72,6 @@ getCells(range?: NotebookRange): NotebookCell[]
 save(): Thenable<boolean>
 ```
 
+[NotebookRange]: NotebookRange.md
+[NotebookCell]: NotebookCell.md
+[Uri]: Uri.md

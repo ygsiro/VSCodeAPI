@@ -22,3 +22,7 @@ resolveDebugConfiguration(folder: WorkspaceFolder, debugConfiguration: DebugConf
 resolveDebugConfigurationWithSubstitutedVariables(folder: WorkspaceFolder, debugConfiguration: DebugConfiguration, token?: CancellationToken): ProviderResult<DebugConfiguration>
 ```
 
+[WorkspaceFolder]: WorkspaceFolder.md
+[DebugConfiguration]: DebugConfiguration.md
+[ProviderResult]: ProviderResultT.md
+[CancellationToken]: CancellationToken.md

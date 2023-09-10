@@ -16,3 +16,6 @@ inputBox: SourceControlInputBox
 createSourceControl(id: string, label: string, rootUri?: Uri): SourceControl
 ```
 
+[Uri]: Uri.md
+[SourceControl]: SourceControl.md
+[SourceControlInputBox]: SourceControlInputBox.md

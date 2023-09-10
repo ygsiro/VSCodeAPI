@@ -16,3 +16,5 @@ notebookEditor: NotebookEditor
 visibleRanges: readonly NotebookRange[]
 ```
 
+[NotebookRange]: NotebookRange.md
+[NotebookEditor]: NotebookEditor.md

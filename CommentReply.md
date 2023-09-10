@@ -16,3 +16,4 @@ text: string
 thread: CommentThread
 ```
 
+[CommentThread]: CommentThread.md

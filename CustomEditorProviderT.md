@@ -52,3 +52,12 @@ saveCustomDocument(document: T, cancellation: CancellationToken): Thenable<void>
 saveCustomDocumentAs(document: T, destination: Uri, cancellation: CancellationToken): Thenable<void>
 ```
 
+[CancellationToken]: CancellationToken.md
+[Uri]: Uri.md
+[CustomDocumentEditEvent]: CustomDocumentEditEventT.md
+[CustomDocumentBackup]: CustomDocumentBackup.md
+[CustomDocumentOpenContext]: CustomDocumentOpenContext.md
+[WebviewPanel]: WebviewPanel.md
+[CustomDocumentContentChangeEvent]: CustomDocumentContentChangeEventT.md
+[Event]: EventT.md
+[CustomDocumentBackupContext]: CustomDocumentBackupContext.md

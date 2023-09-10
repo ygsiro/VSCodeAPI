@@ -142,3 +142,6 @@ overviewRulerColor?: string | ThemeColor
 textDecoration?: string
 ```
 
+[ThemableDecorationAttachmentRenderOptions]: ThemableDecorationAttachmentRenderOptions.md
+[Uri]: Uri.md
+[ThemeColor]: ThemeColor.md

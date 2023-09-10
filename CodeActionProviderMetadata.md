@@ -16,3 +16,5 @@ documentation?: readonly {command: Command, kind: CodeActionKind}[]
 providedCodeActionKinds?: readonly CodeActionKind[]
 ```
 
+[CodeActionKind]: CodeActionKind.md
+[Command]: Command.md

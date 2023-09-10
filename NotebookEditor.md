@@ -42,3 +42,7 @@ visibleRanges: readonly NotebookRange[]
 revealRange(range: NotebookRange, revealType?: NotebookEditorRevealType): void
 ```
 
+[NotebookRange]: NotebookRange.md
+[NotebookDocument]: NotebookDocument.md
+[ViewColumn]: ViewColumn.md
+[NotebookEditorRevealType]: NotebookEditorRevealType.md

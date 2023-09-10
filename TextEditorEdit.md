@@ -28,3 +28,7 @@ replace(location: Range | Position | Selection, value: string): void
 setEndOfLine(endOfLine: EndOfLine): void
 ```
 
+[Selection]: Selection.md
+[Range]: Range.md
+[EndOfLine]: EndOfLine.md
+[Position]: Position.md

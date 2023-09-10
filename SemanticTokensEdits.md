@@ -24,3 +24,4 @@ edits: SemanticTokensEdit[]
 resultId: string
 ```
 
+[SemanticTokensEdit]: SemanticTokensEdit.md

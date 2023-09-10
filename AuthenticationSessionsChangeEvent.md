@@ -10,3 +10,4 @@ An Event which fires when an AuthenticationSession is added, removed, or changed
 provider: AuthenticationProviderInformation
 ```
 
+[AuthenticationProviderInformation]: AuthenticationProviderInformation.md

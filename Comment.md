@@ -46,3 +46,7 @@ reactions?: CommentReaction[]
 timestamp?: Date
 ```
 
+[CommentMode]: CommentMode.md
+[MarkdownString]: MarkdownString.md
+[CommentReaction]: CommentReaction.md
+[CommentAuthorInformation]: CommentAuthorInformation.md

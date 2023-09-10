@@ -34,3 +34,5 @@ localResourceRoots?: readonly Uri[]
 portMapping?: readonly WebviewPortMapping[]
 ```
 
+[Uri]: Uri.md
+[WebviewPortMapping]: WebviewPortMapping.md

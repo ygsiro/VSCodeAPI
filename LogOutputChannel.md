@@ -106,3 +106,7 @@ trace(message: string, ...args: any[]): void
 warn(message: string, ...args: any[]): void
 ```
 
+[ViewColumn]: ViewColumn.md
+[debug]: debug.md
+[Event]: EventT.md
+[LogLevel]: LogLevel.md

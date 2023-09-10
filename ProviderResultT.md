@@ -30,3 +30,5 @@ let c: HoverProvider = {
 ProviderResult: T | undefined | null | Thenable<T | undefined | null>
 ```
 
+[HoverProvider]: HoverProvider.md
+[Hover]: Hover.md

@@ -66,3 +66,12 @@ dispose(): void
 invalidateTestResults(items?: TestItem | readonly TestItem[]): void
 ```
 
+[TestItem]: TestItem.md
+[CancellationToken]: CancellationToken.md
+[TestRunProfile]: TestRunProfile.md
+[Uri]: Uri.md
+[TestRunProfileKind]: TestRunProfileKind.md
+[TestItemCollection]: TestItemCollection.md
+[TestRun]: TestRun.md
+[TestRunRequest]: TestRunRequest.md
+[TestTag]: TestTag.md

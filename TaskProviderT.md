@@ -16,3 +16,5 @@ provideTasks(token: CancellationToken): ProviderResult<T[]>
 resolveTask(task: T, token: CancellationToken): ProviderResult<T>
 ```
 
+[ProviderResult]: ProviderResultT.md
+[CancellationToken]: CancellationToken.md

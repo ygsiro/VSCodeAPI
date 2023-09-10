@@ -28,3 +28,4 @@ notebookType: string
 original: Uri
 ```
 
+[Uri]: Uri.md

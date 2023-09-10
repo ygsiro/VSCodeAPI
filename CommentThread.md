@@ -60,3 +60,9 @@ uri: Uri
 dispose(): void
 ```
 
+[comments]: comments.md
+[Range]: Range.md
+[Comment]: Comment.md
+[CommentThreadState]: CommentThreadState.md
+[Uri]: Uri.md
+[CommentThreadCollapsibleState]: CommentThreadCollapsibleState.md

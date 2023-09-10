@@ -26,3 +26,5 @@ dark?: ThemableDecorationInstanceRenderOptions
 light?: ThemableDecorationInstanceRenderOptions
 ```
 
+[ThemableDecorationInstanceRenderOptions]: ThemableDecorationInstanceRenderOptions.md
+[ThemableDecorationAttachmentRenderOptions]: ThemableDecorationAttachmentRenderOptions.md

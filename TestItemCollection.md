@@ -42,3 +42,4 @@ get(itemId: string): TestItem
 replace(items: readonly TestItem[]): void
 ```
 
+[TestItem]: TestItem.md

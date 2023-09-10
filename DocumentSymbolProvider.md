@@ -10,3 +10,8 @@ The document symbol provider interface defines the contract between extensions a
 provideDocumentSymbols(document: TextDocument, token: CancellationToken): ProviderResult<DocumentSymbol[] | SymbolInformation[]>
 ```
 
+[ProviderResult]: ProviderResultT.md
+[SymbolInformation]: SymbolInformation.md
+[DocumentSymbol]: DocumentSymbol.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

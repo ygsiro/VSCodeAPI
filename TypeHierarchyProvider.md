@@ -22,3 +22,8 @@ provideTypeHierarchySubtypes(item: TypeHierarchyItem, token: CancellationToken):
 provideTypeHierarchySupertypes(item: TypeHierarchyItem, token: CancellationToken): ProviderResult<TypeHierarchyItem[]>
 ```
 
+[TypeHierarchyItem]: TypeHierarchyItem.md
+[ProviderResult]: ProviderResultT.md
+[Position]: Position.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

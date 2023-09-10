@@ -16,3 +16,5 @@ notebookEditor: NotebookEditor
 selections: readonly NotebookRange[]
 ```
 
+[NotebookRange]: NotebookRange.md
+[NotebookEditor]: NotebookEditor.md

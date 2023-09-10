@@ -109,3 +109,10 @@ tags?: readonly Deprecated[]
 textEdit?: TextEdit
 ```
 
+[Range]: Range.md
+[MarkdownString]: MarkdownString.md
+[SnippetString]: SnippetString.md
+[CompletionItemKind]: CompletionItemKind.md
+[CompletionItemLabel]: CompletionItemLabel.md
+[TextEdit]: TextEdit.md
+[Command]: Command.md

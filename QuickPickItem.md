@@ -52,3 +52,7 @@ label: string
 picked?: boolean
 ```
 
+[ThemeIcon]: ThemeIcon.md
+[QuickInputButton]: QuickInputButton.md
+[Uri]: Uri.md
+[QuickPickItemKind]: QuickPickItemKind.md

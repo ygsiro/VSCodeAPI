@@ -22,3 +22,4 @@ isIncomplete?: boolean
 items: T[]
 ```
 
+[CompletionItem]: CompletionItem.md

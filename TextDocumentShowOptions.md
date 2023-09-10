@@ -28,3 +28,5 @@ selection?: Range
 viewColumn?: ViewColumn
 ```
 
+[Range]: Range.md
+[ViewColumn]: ViewColumn.md

@@ -20,3 +20,4 @@ uri: Uri
 dispose(): void
 ```
 
+[Uri]: Uri.md

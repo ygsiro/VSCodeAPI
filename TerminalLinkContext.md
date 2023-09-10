@@ -16,3 +16,4 @@ line: string
 terminal: Terminal
 ```
 
+[Terminal]: Terminal.md

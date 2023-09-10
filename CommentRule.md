@@ -16,3 +16,4 @@ blockComment?: CharacterPair
 lineComment?: string
 ```
 
+[CharacterPair]: CharacterPair.md

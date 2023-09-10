@@ -72,3 +72,6 @@ skipped(test: TestItem): void
 started(test: TestItem): void
 ```
 
+[TestItem]: TestItem.md
+[TestMessage]: TestMessage.md
+[CancellationToken]: CancellationToken.md

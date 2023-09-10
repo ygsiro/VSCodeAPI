@@ -10,3 +10,4 @@ Uses the parent Terminal's location for the terminal
 parentTerminal: Terminal
 ```
 
+[Terminal]: Terminal.md

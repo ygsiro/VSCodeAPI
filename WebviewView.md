@@ -62,3 +62,6 @@ webview: Webview
 show(preserveFocus?: boolean): void
 ```
 
+[Event]: EventT.md
+[Webview]: Webview.md
+[ViewBadge]: ViewBadge.md

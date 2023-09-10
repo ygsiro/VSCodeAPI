@@ -16,3 +16,4 @@ code: number
 reason: TerminalExitReason
 ```
 
+[TerminalExitReason]: TerminalExitReason.md

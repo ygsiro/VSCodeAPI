@@ -22,3 +22,5 @@ type: EnvironmentVariableMutatorType
 value: string
 ```
 
+[EnvironmentVariableMutatorType]: EnvironmentVariableMutatorType.md
+[EnvironmentVariableMutatorOptions]: EnvironmentVariableMutatorOptions.md

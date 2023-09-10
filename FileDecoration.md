@@ -34,3 +34,4 @@ propagate?: boolean
 tooltip?: string
 ```
 
+[ThemeColor]: ThemeColor.md

@@ -10,3 +10,6 @@ as an evaluatable expression (class InlineValueEvaluatableExpression) The Inline
 InlineValue: InlineValueText | InlineValueVariableLookup | InlineValueEvaluatableExpression
 ```
 
+[InlineValueEvaluatableExpression]: InlineValueEvaluatableExpression.md
+[InlineValueText]: InlineValueText.md
+[InlineValueVariableLookup]: InlineValueVariableLookup.md

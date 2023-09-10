@@ -24,3 +24,5 @@ range: NotebookRange
 removedCells: readonly NotebookCell[]
 ```
 
+[NotebookRange]: NotebookRange.md
+[NotebookCell]: NotebookCell.md

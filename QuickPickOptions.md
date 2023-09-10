@@ -48,3 +48,4 @@ placeHolder?: string
 title?: string
 ```
 
+[QuickPickItem]: QuickPickItem.md

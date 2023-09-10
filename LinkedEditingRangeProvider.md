@@ -10,3 +10,8 @@ The linked editing range provider interface defines the contract between extensi
 provideLinkedEditingRanges(document: TextDocument, position: Position, token: CancellationToken): ProviderResult<LinkedEditingRanges>
 ```
 
+[LinkedEditingRanges]: LinkedEditingRanges.md
+[ProviderResult]: ProviderResultT.md
+[Position]: Position.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

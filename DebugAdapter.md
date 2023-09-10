@@ -24,3 +24,5 @@ dispose(): any
 handleMessage(message: DebugProtocolMessage): void
 ```
 
+[Event]: EventT.md
+[DebugProtocolMessage]: DebugProtocolMessage.md

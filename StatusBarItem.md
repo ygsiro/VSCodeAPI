@@ -84,3 +84,8 @@ hide(): void
 show(): void
 ```
 
+[MarkdownString]: MarkdownString.md
+[StatusBarAlignment]: StatusBarAlignment.md
+[AccessibilityInformation]: AccessibilityInformation.md
+[ThemeColor]: ThemeColor.md
+[Command]: Command.md

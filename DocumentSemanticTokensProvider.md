@@ -24,3 +24,9 @@ provideDocumentSemanticTokens(document: TextDocument, token: CancellationToken):
 provideDocumentSemanticTokensEdits(document: TextDocument, previousResultId: string, token: CancellationToken): ProviderResult<SemanticTokens | SemanticTokensEdits>
 ```
 
+[SemanticTokensEdits]: SemanticTokensEdits.md
+[Event]: EventT.md
+[ProviderResult]: ProviderResultT.md
+[TextDocument]: TextDocument.md
+[SemanticTokens]: SemanticTokens.md
+[CancellationToken]: CancellationToken.md

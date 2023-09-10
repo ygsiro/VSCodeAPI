@@ -122,3 +122,11 @@ createTelemetryLogger(sender: TelemetrySender, options?: TelemetryLoggerOptions)
 openExternal(target: Uri): Thenable<boolean>
 ```
 
+[Clipboard]: Clipboard.md
+[Uri]: Uri.md
+[UIKind]: UIKind.md
+[TelemetrySender]: TelemetrySender.md
+[Event]: EventT.md
+[TelemetryLogger]: TelemetryLogger.md
+[TelemetryLoggerOptions]: TelemetryLoggerOptions.md
+[LogLevel]: LogLevel.md

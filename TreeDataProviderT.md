@@ -36,3 +36,7 @@ getTreeItem(element: T): TreeItem | Thenable<TreeItem>
 resolveTreeItem(item: TreeItem, element: T, token: CancellationToken): ProviderResult<TreeItem>
 ```
 
+[Event]: EventT.md
+[ProviderResult]: ProviderResultT.md
+[TreeItem]: TreeItem.md
+[CancellationToken]: CancellationToken.md

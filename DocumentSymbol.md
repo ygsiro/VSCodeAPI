@@ -52,3 +52,5 @@ selectionRange: Range
 tags?: readonly Deprecated[]
 ```
 
+[Range]: Range.md
+[SymbolKind]: SymbolKind.md

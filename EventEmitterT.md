@@ -32,3 +32,4 @@ dispose(): void
 fire(data: T): void
 ```
 
+[Event]: EventT.md

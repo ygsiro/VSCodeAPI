@@ -10,3 +10,8 @@ The document range semantic tokens provider interface defines the contract betwe
 provideDocumentRangeSemanticTokens(document: TextDocument, range: Range, token: CancellationToken): ProviderResult<SemanticTokens>
 ```
 
+[ProviderResult]: ProviderResultT.md
+[Range]: Range.md
+[TextDocument]: TextDocument.md
+[SemanticTokens]: SemanticTokens.md
+[CancellationToken]: CancellationToken.md

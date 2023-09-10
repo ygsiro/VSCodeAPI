@@ -30,3 +30,6 @@ getSessions(scopes?: readonly string[]): Thenable<readonly AuthenticationSession
 removeSession(sessionId: string): Thenable<void>
 ```
 
+[Event]: EventT.md
+[AuthenticationSession]: AuthenticationSession.md
+[AuthenticationProviderAuthenticationSessionsChangeEvent]: AuthenticationProviderAuthenticationSessionsChangeEvent.md

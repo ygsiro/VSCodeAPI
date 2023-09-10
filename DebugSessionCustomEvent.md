@@ -22,3 +22,4 @@ event: string
 session: DebugSession
 ```
 
+[DebugSession]: DebugSession.md

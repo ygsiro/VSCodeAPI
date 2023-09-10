@@ -10,3 +10,9 @@ The definition provider interface defines the contract between extensions and th
 provideDefinition(document: TextDocument, position: Position, token: CancellationToken): ProviderResult<Definition | LocationLink[]>
 ```
 
+[LocationLink]: LocationLink.md
+[ProviderResult]: ProviderResultT.md
+[Definition]: Definition.md
+[Position]: Position.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

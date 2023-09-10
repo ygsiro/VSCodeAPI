@@ -16,3 +16,6 @@ provideDocumentLinks(document: TextDocument, token: CancellationToken): Provider
 resolveDocumentLink(link: T, token: CancellationToken): ProviderResult<T>
 ```
 
+[ProviderResult]: ProviderResultT.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

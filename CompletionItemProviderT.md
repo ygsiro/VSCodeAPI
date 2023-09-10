@@ -20,3 +20,9 @@ provideCompletionItems(document: TextDocument, position: Position, token: Cancel
 resolveCompletionItem(item: T, token: CancellationToken): ProviderResult<T>
 ```
 
+[CompletionList]: CompletionListT.md
+[ProviderResult]: ProviderResultT.md
+[CompletionContext]: CompletionContext.md
+[Position]: Position.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

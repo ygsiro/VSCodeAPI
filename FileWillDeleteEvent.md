@@ -32,3 +32,6 @@ waitUntil(thenable: Thenable<WorkspaceEdit>): void
 waitUntil(thenable: Thenable<any>): void
 ```
 
+[Uri]: Uri.md
+[WorkspaceEdit]: WorkspaceEdit.md
+[CancellationToken]: CancellationToken.md

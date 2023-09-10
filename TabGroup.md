@@ -28,3 +28,5 @@ tabs: readonly Tab[]
 viewColumn: ViewColumn
 ```
 
+[ViewColumn]: ViewColumn.md
+[Tab]: Tab.md

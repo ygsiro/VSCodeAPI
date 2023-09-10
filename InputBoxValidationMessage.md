@@ -16,3 +16,4 @@ message: string
 severity: InputBoxValidationSeverity
 ```
 
+[InputBoxValidationSeverity]: InputBoxValidationSeverity.md

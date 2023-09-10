@@ -78,3 +78,11 @@ resourceUri?: Uri
 tooltip?: string | MarkdownString
 ```
 
+[MarkdownString]: MarkdownString.md
+[TreeItemCheckboxState]: TreeItemCheckboxState.md
+[Uri]: Uri.md
+[AccessibilityInformation]: AccessibilityInformation.md
+[TreeItemLabel]: TreeItemLabel.md
+[TreeItemCollapsibleState]: TreeItemCollapsibleState.md
+[ThemeIcon]: ThemeIcon.md
+[Command]: Command.md

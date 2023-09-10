@@ -22,3 +22,4 @@ changed: readonly Breakpoint[]
 removed: readonly Breakpoint[]
 ```
 
+[Breakpoint]: Breakpoint.md

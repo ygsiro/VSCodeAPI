@@ -66,3 +66,7 @@ text: string
 dispose(): void
 ```
 
+[LanguageStatusSeverity]: LanguageStatusSeverity.md
+[AccessibilityInformation]: AccessibilityInformation.md
+[Command]: Command.md
+[DocumentSelector]: DocumentSelector.md

@@ -56,3 +56,13 @@ fetchTasks(filter?: TaskFilter): Thenable<Task[]>
 registerTaskProvider(type: string, provider: TaskProvider<Task>): Disposable
 ```
 
+[Task]: Task.md
+[TaskProvider]: TaskProviderT.md
+[TaskProcessEndEvent]: TaskProcessEndEvent.md
+[TaskProcessStartEvent]: TaskProcessStartEvent.md
+[Disposable]: Disposable.md
+[TaskExecution]: TaskExecution.md
+[TaskFilter]: TaskFilter.md
+[TaskEndEvent]: TaskEndEvent.md
+[Event]: EventT.md
+[TaskStartEvent]: TaskStartEvent.md

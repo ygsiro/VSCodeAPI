@@ -10,3 +10,5 @@ The theme-aware decorations for a source control resource state.
 iconPath?: string | Uri | ThemeIcon
 ```
 
+[ThemeIcon]: ThemeIcon.md
+[Uri]: Uri.md

@@ -22,3 +22,4 @@ uri: Uri
 viewType: string
 ```
 
+[Uri]: Uri.md

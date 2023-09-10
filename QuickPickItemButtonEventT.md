@@ -16,3 +16,4 @@ button: QuickInputButton
 item: T
 ```
 
+[QuickInputButton]: QuickInputButton.md

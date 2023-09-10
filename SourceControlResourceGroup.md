@@ -36,3 +36,4 @@ resourceStates: SourceControlResourceState[]
 dispose(): void
 ```
 
+[SourceControlResourceState]: SourceControlResourceState.md

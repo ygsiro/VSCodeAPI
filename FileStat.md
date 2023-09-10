@@ -34,3 +34,4 @@ size: number
 type: FileType
 ```
 
+[FileType]: FileType.md

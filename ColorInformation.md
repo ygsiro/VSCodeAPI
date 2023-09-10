@@ -22,3 +22,5 @@ color: Color
 range: Range
 ```
 
+[Color]: Color.md
+[Range]: Range.md

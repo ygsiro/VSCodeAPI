@@ -16,3 +16,5 @@ options: TextEditorOptions
 textEditor: TextEditor
 ```
 
+[TextEditorOptions]: TextEditorOptions.md
+[TextEditor]: TextEditor.md

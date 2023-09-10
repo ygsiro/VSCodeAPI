@@ -46,3 +46,8 @@ onEnterRules?: OnEnterRule[]
 wordPattern?: RegExp
 ```
 
+[comments]: comments.md
+[OnEnterRule]: OnEnterRule.md
+[CommentRule]: CommentRule.md
+[IndentationRule]: IndentationRule.md
+[CharacterPair]: CharacterPair.md

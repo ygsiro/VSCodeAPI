@@ -68,3 +68,7 @@ replaceOutputItems(items: NotebookCellOutputItem | readonly NotebookCellOutputIt
 start(startTime?: number): void
 ```
 
+[NotebookCellOutputItem]: NotebookCellOutputItem.md
+[CancellationToken]: CancellationToken.md
+[NotebookCell]: NotebookCell.md
+[NotebookCellOutput]: NotebookCellOutput.md

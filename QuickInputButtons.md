@@ -10,3 +10,4 @@ Predefined buttons for QuickPick and InputBox.
 Back: QuickInputButton
 ```
 
+[QuickInputButton]: QuickInputButton.md

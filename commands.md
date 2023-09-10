@@ -57,3 +57,7 @@ registerCommand(command: string, callback: (args: any[]) => any, thisArg?: any):
 registerTextEditorCommand(command: string, callback: (textEditor: TextEditor, edit: TextEditorEdit, args: any[]) => void, thisArg?: any): Disposable
 ```
 
+[TextEditorEdit]: TextEditorEdit.md
+[window]: window.md
+[Disposable]: Disposable.md
+[TextEditor]: TextEditor.md

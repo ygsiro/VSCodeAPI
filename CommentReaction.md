@@ -28,3 +28,4 @@ iconPath: string | Uri
 label: string
 ```
 
+[Uri]: Uri.md

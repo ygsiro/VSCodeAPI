@@ -16,3 +16,9 @@ prepareRename(document: TextDocument, position: Position, token: CancellationTok
 provideRenameEdits(document: TextDocument, position: Position, newName: string, token: CancellationToken): ProviderResult<WorkspaceEdit>
 ```
 
+[ProviderResult]: ProviderResultT.md
+[Range]: Range.md
+[Position]: Position.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md
+[WorkspaceEdit]: WorkspaceEdit.md

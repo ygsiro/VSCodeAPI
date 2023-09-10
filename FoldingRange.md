@@ -28,3 +28,4 @@ kind?: FoldingRangeKind
 start: number
 ```
 
+[FoldingRangeKind]: FoldingRangeKind.md

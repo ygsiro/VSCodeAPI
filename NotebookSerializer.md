@@ -18,3 +18,5 @@ deserializeNotebook(content: Uint8Array, token: CancellationToken): NotebookData
 serializeNotebook(data: NotebookData, token: CancellationToken): Uint8Array | Thenable<Uint8Array>
 ```
 
+[NotebookData]: NotebookData.md
+[CancellationToken]: CancellationToken.md

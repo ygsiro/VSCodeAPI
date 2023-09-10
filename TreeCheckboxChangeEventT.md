@@ -10,3 +10,4 @@ An event describing the change in a tree item's checkbox state.
 items: readonly [T, TreeItemCheckboxState][]
 ```
 
+[TreeItemCheckboxState]: TreeItemCheckboxState.md

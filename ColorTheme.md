@@ -10,3 +10,4 @@ Represents a color theme.
 kind: ColorThemeKind
 ```
 
+[ColorThemeKind]: ColorThemeKind.md

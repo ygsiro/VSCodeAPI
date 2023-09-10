@@ -64,3 +64,4 @@ appendMarkdown(value: string): MarkdownString
 appendText(value: string): MarkdownString
 ```
 
+[Uri]: Uri.md

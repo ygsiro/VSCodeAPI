@@ -278,3 +278,36 @@ saveAll(includeUntitled?: boolean): Thenable<boolean>
 updateWorkspaceFolders(start: number, deleteCount: number, ...workspaceFoldersToAdd: {name: string, uri: Uri}[]): boolean
 ```
 
+[WorkspaceFoldersChangeEvent]: WorkspaceFoldersChangeEvent.md
+[FileSystem]: FileSystem.md
+[FileCreateEvent]: FileCreateEvent.md
+[NotebookData]: NotebookData.md
+[FileDeleteEvent]: FileDeleteEvent.md
+[GlobPattern]: GlobPattern.md
+[WorkspaceEditMetadata]: WorkspaceEditMetadata.md
+[Event]: EventT.md
+[NotebookDocumentChangeEvent]: NotebookDocumentChangeEvent.md
+[NotebookDocument]: NotebookDocument.md
+[Task]: Task.md
+[FileSystemWatcher]: FileSystemWatcher.md
+[TaskProvider]: TaskProviderT.md
+[Disposable]: Disposable.md
+[TextDocument]: TextDocument.md
+[WorkspaceConfiguration]: WorkspaceConfiguration.md
+[WorkspaceFolder]: WorkspaceFolder.md
+[ConfigurationChangeEvent]: ConfigurationChangeEvent.md
+[FileWillCreateEvent]: FileWillCreateEvent.md
+[TextDocumentContentProvider]: TextDocumentContentProvider.md
+[FileWillRenameEvent]: FileWillRenameEvent.md
+[FileSystemProvider]: FileSystemProvider.md
+[NotebookDocumentContentOptions]: NotebookDocumentContentOptions.md
+[ConfigurationScope]: ConfigurationScope.md
+[WorkspaceEdit]: WorkspaceEdit.md
+[TextDocumentWillSaveEvent]: TextDocumentWillSaveEvent.md
+[FileRenameEvent]: FileRenameEvent.md
+[TextDocumentChangeEvent]: TextDocumentChangeEvent.md
+[NotebookDocumentWillSaveEvent]: NotebookDocumentWillSaveEvent.md
+[FileWillDeleteEvent]: FileWillDeleteEvent.md
+[CancellationToken]: CancellationToken.md
+[NotebookSerializer]: NotebookSerializer.md
+[Uri]: Uri.md

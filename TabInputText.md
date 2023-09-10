@@ -16,3 +16,4 @@ new TabInputText(uri: Uri): TabInputText
 uri: Uri
 ```
 
+[Uri]: Uri.md

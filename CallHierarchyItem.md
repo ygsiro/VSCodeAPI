@@ -52,3 +52,6 @@ tags?: readonly Deprecated[]
 uri: Uri
 ```
 
+[Range]: Range.md
+[Uri]: Uri.md
+[SymbolKind]: SymbolKind.md

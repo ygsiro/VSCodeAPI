@@ -16,3 +16,4 @@ added: readonly WorkspaceFolder[]
 removed: readonly WorkspaceFolder[]
 ```
 
+[WorkspaceFolder]: WorkspaceFolder.md

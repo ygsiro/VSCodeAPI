@@ -10,3 +10,4 @@ Namespace for testing functionality. Tests are published by registering TestCont
 createTestController(id: string, label: string): TestController
 ```
 
+[TestController]: TestController.md

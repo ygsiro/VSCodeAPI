@@ -58,3 +58,5 @@ suppressDebugView?: boolean
 suppressSaveBeforeStart?: boolean
 ```
 
+[DebugConsoleMode]: DebugConsoleMode.md
+[DebugSession]: DebugSession.md

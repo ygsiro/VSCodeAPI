@@ -28,3 +28,9 @@ createRendererMessaging(rendererId: string): NotebookRendererMessaging
 registerNotebookCellStatusBarItemProvider(notebookType: string, provider: NotebookCellStatusBarItemProvider): Disposable
 ```
 
+[NotebookCell]: NotebookCell.md
+[Disposable]: Disposable.md
+[NotebookRendererMessaging]: NotebookRendererMessaging.md
+[NotebookCellStatusBarItemProvider]: NotebookCellStatusBarItemProvider.md
+[NotebookDocument]: NotebookDocument.md
+[NotebookController]: NotebookController.md

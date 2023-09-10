@@ -38,3 +38,4 @@ color?: ThemeColor
 id: string
 ```
 
+[ThemeColor]: ThemeColor.md

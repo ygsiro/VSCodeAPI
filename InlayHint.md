@@ -52,3 +52,8 @@ textEdits?: TextEdit[]
 tooltip?: string | MarkdownString
 ```
 
+[Position]: Position.md
+[InlayHintKind]: InlayHintKind.md
+[InlayHintLabelPart]: InlayHintLabelPart.md
+[MarkdownString]: MarkdownString.md
+[TextEdit]: TextEdit.md

@@ -60,3 +60,6 @@ prepend(variable: string, value: string, options?: EnvironmentVariableMutatorOpt
 replace(variable: string, value: string, options?: EnvironmentVariableMutatorOptions): void
 ```
 
+[MarkdownString]: MarkdownString.md
+[EnvironmentVariableMutatorOptions]: EnvironmentVariableMutatorOptions.md
+[EnvironmentVariableMutator]: EnvironmentVariableMutator.md

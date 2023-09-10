@@ -54,3 +54,6 @@ newText: string
 range: Range
 ```
 
+[Range]: Range.md
+[Position]: Position.md
+[EndOfLine]: EndOfLine.md

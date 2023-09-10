@@ -22,3 +22,4 @@ notebookType: string
 uri: Uri
 ```
 
+[Uri]: Uri.md

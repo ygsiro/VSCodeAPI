@@ -28,3 +28,6 @@ push(line: number, char: number, length: number, tokenType: number, tokenModifie
 push(range: Range, tokenType: string, tokenModifiers?: readonly string[]): void
 ```
 
+[SemanticTokensLegend]: SemanticTokensLegend.md
+[Range]: Range.md
+[SemanticTokens]: SemanticTokens.md

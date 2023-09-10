@@ -22,3 +22,4 @@ changed: readonly AuthenticationSession[]
 removed: readonly AuthenticationSession[]
 ```
 
+[AuthenticationSession]: AuthenticationSession.md

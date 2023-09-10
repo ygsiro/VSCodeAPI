@@ -16,3 +16,6 @@ handleTerminalLink(link: T): ProviderResult<void>
 provideTerminalLinks(context: TerminalLinkContext, token: CancellationToken): ProviderResult<T[]>
 ```
 
+[TerminalLinkContext]: TerminalLinkContext.md
+[ProviderResult]: ProviderResultT.md
+[CancellationToken]: CancellationToken.md

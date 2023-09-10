@@ -10,3 +10,8 @@ The evaluatable expression provider interface defines the contract between exten
 provideEvaluatableExpression(document: TextDocument, position: Position, token: CancellationToken): ProviderResult<EvaluatableExpression>
 ```
 
+[ProviderResult]: ProviderResultT.md
+[Position]: Position.md
+[EvaluatableExpression]: EvaluatableExpression.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

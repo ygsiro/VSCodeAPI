@@ -34,3 +34,5 @@ label: string
 parameters: ParameterInformation[]
 ```
 
+[ParameterInformation]: ParameterInformation.md
+[MarkdownString]: MarkdownString.md

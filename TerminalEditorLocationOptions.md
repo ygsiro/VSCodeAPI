@@ -16,3 +16,4 @@ preserveFocus?: boolean
 viewColumn: ViewColumn
 ```
 
+[ViewColumn]: ViewColumn.md

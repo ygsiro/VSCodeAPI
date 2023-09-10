@@ -16,3 +16,4 @@ iconPath?: Uri
 name: string
 ```
 
+[Uri]: Uri.md

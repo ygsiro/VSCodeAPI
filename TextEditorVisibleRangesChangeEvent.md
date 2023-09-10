@@ -16,3 +16,5 @@ textEditor: TextEditor
 visibleRanges: readonly Range[]
 ```
 
+[TextEditor]: TextEditor.md
+[Range]: Range.md

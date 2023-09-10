@@ -10,3 +10,4 @@ The event that is fired when diagnostics change.
 uris: readonly Uri[]
 ```
 
+[Uri]: Uri.md

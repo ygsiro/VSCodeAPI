@@ -10,3 +10,8 @@ The hover provider interface defines the contract between extensions and the hov
 provideHover(document: TextDocument, position: Position, token: CancellationToken): ProviderResult<Hover>
 ```
 
+[Hover]: Hover.md
+[ProviderResult]: ProviderResultT.md
+[Position]: Position.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

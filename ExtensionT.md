@@ -56,3 +56,5 @@ packageJSON: any
 activate(): Thenable<T>
 ```
 
+[ExtensionKind]: ExtensionKind.md
+[Uri]: Uri.md

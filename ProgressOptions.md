@@ -22,3 +22,4 @@ location: ProgressLocation | {viewId: string}
 title?: string
 ```
 
+[ProgressLocation]: ProgressLocation.md

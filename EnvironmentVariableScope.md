@@ -10,3 +10,4 @@ The scope object to which the environment variable collection applies.
 workspaceFolder?: WorkspaceFolder
 ```
 
+[WorkspaceFolder]: WorkspaceFolder.md

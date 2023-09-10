@@ -60,3 +60,7 @@ sendText(text: string, addNewLine?: boolean): void
 show(preserveFocus?: boolean): void
 ```
 
+[TerminalExitStatus]: TerminalExitStatus.md
+[ExtensionTerminalOptions]: ExtensionTerminalOptions.md
+[TerminalState]: TerminalState.md
+[TerminalOptions]: TerminalOptions.md

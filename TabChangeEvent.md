@@ -22,3 +22,4 @@ closed: readonly Tab[]
 opened: readonly Tab[]
 ```
 
+[Tab]: Tab.md

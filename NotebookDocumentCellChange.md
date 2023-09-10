@@ -36,3 +36,7 @@ metadata:
 outputs: readonly NotebookCellOutput[]
 ```
 
+[NotebookCell]: NotebookCell.md
+[NotebookCellOutput]: NotebookCellOutput.md
+[NotebookCellExecutionSummary]: NotebookCellExecutionSummary.md
+[TextDocument]: TextDocument.md

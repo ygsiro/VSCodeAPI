@@ -22,3 +22,10 @@ provideCallHierarchyIncomingCalls(item: CallHierarchyItem, token: CancellationTo
 provideCallHierarchyOutgoingCalls(item: CallHierarchyItem, token: CancellationToken): ProviderResult<CallHierarchyOutgoingCall[]>
 ```
 
+[CallHierarchyItem]: CallHierarchyItem.md
+[ProviderResult]: ProviderResultT.md
+[CallHierarchyOutgoingCall]: CallHierarchyOutgoingCall.md
+[CallHierarchyIncomingCall]: CallHierarchyIncomingCall.md
+[Position]: Position.md
+[TextDocument]: TextDocument.md
+[CancellationToken]: CancellationToken.md

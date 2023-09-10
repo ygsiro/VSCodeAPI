@@ -10,3 +10,6 @@ Provides a terminal profile for the contributed terminal profile when launched v
 provideTerminalProfile(token: CancellationToken): ProviderResult<TerminalProfile>
 ```
 
+[TerminalProfile]: TerminalProfile.md
+[ProviderResult]: ProviderResultT.md
+[CancellationToken]: CancellationToken.md

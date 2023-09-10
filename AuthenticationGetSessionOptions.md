@@ -28,3 +28,4 @@ forceNewSession?: boolean | AuthenticationForceNewSessionOptions
 silent?: boolean
 ```
 
+[AuthenticationForceNewSessionOptions]: AuthenticationForceNewSessionOptions.md

@@ -31,3 +31,4 @@ A WebviewPanelSerializer extends this persistence across restarts of the editor.
 deserializeWebviewPanel(webviewPanel: WebviewPanel, state: T): Thenable<void>
 ```
 
+[WebviewPanel]: WebviewPanel.md

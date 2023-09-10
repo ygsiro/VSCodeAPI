@@ -10,3 +10,6 @@ Provider for creating WebviewView elements.
 resolveWebviewView(webviewView: WebviewView, context: WebviewViewResolveContext<unknown>, token: CancellationToken): void | Thenable<void>
 ```
 
+[WebviewViewResolveContext]: WebviewViewResolveContextT.md
+[WebviewView]: WebviewView.md
+[CancellationToken]: CancellationToken.md

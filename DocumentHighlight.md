@@ -22,3 +22,5 @@ kind?: DocumentHighlightKind
 range: Range
 ```
 
+[Range]: Range.md
+[DocumentHighlightKind]: DocumentHighlightKind.md

@@ -166,3 +166,6 @@ hide(): void
 show(): void
 ```
 
+[QuickPickItemButtonEvent]: QuickPickItemButtonEventT.md
+[Event]: EventT.md
+[QuickInputButton]: QuickInputButton.md

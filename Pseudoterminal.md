@@ -54,3 +54,5 @@ open(initialDimensions: TerminalDimensions): void
 setDimensions(dimensions: TerminalDimensions): void
 ```
 
+[Event]: EventT.md
+[TerminalDimensions]: TerminalDimensions.md

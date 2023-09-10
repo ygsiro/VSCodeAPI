@@ -42,3 +42,4 @@ location?: Location
 message: string | MarkdownString
 ```
 
+[MarkdownString]: MarkdownString.md

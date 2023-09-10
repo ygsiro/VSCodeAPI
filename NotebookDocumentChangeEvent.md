@@ -28,3 +28,6 @@ metadata:
 notebook: NotebookDocument
 ```
 
+[NotebookDocumentCellChange]: NotebookDocumentCellChange.md
+[NotebookDocumentContentChange]: NotebookDocumentContentChange.md
+[NotebookDocument]: NotebookDocument.md

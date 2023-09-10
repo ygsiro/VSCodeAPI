@@ -8,3 +8,4 @@ A debug adapter descriptor for an inline implementation.
 new DebugAdapterInlineImplementation(implementation: DebugAdapter): DebugAdapterInlineImplementation
 ```
 
+[DebugAdapter]: DebugAdapter.md

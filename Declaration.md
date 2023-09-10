@@ -6,3 +6,4 @@ The declaration of a symbol representation as one or many locations or location 
 Declaration: Location | Location[] | LocationLink[]
 ```
 
+[LocationLink]: LocationLink.md

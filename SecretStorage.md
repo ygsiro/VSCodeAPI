@@ -30,3 +30,5 @@ get(key: string): Thenable<string>
 store(key: string, value: string): Thenable<void>
 ```
 
+[Event]: EventT.md
+[SecretStorageChangeEvent]: SecretStorageChangeEvent.md

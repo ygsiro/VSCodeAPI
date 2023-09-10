@@ -42,3 +42,4 @@ rangeIncludingLineBreak: Range
 text: string
 ```
 
+[Range]: Range.md

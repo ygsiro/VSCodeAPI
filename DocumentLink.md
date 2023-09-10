@@ -28,3 +28,5 @@ target?: Uri
 tooltip?: string
 ```
 
+[Range]: Range.md
+[Uri]: Uri.md

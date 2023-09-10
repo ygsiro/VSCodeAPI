@@ -12,3 +12,5 @@ See also registerUriHandler.
 handleUri(uri: Uri): ProviderResult<void>
 ```
 
+[ProviderResult]: ProviderResultT.md
+[Uri]: Uri.md

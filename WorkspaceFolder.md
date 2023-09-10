@@ -22,3 +22,4 @@ name: string
 uri: Uri
 ```
 
+[Uri]: Uri.md

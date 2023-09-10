@@ -38,3 +38,7 @@ waitUntil(thenable: Thenable<WorkspaceEdit>): void
 waitUntil(thenable: Thenable<any>): void
 ```
 
+[NotebookDocument]: NotebookDocument.md
+[TextDocumentSaveReason]: TextDocumentSaveReason.md
+[WorkspaceEdit]: WorkspaceEdit.md
+[CancellationToken]: CancellationToken.md

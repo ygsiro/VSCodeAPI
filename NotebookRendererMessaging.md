@@ -18,3 +18,5 @@ onDidReceiveMessage: Event<{editor: NotebookEditor, message: any}>
 postMessage(message: any, editor?: NotebookEditor): Thenable<boolean>
 ```
 
+[Event]: EventT.md
+[NotebookEditor]: NotebookEditor.md

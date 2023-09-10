@@ -16,3 +16,5 @@ new TerminalProfile(options: TerminalOptions | ExtensionTerminalOptions): Termin
 options: TerminalOptions | ExtensionTerminalOptions
 ```
 
+[ExtensionTerminalOptions]: ExtensionTerminalOptions.md
+[TerminalOptions]: TerminalOptions.md
