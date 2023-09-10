@@ -22,3 +22,4 @@ location: Location
 message: string
 ```
 
+[Locaation]: Location.md

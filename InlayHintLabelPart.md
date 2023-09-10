@@ -36,3 +36,4 @@ value: string
 
 [Command]: Command.md
 [MarkdownString]: MarkdownString.md
+[Locaation]: Location.md

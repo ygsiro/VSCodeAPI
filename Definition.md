@@ -6,3 +6,4 @@ The definition of a symbol represented as one or many locations. For most progra
 Definition: Location | Location[]
 ```
 
+[Location]: Location.md

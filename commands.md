@@ -1,14 +1,23 @@
 # commands
 
-Namespace for dealing with commands. In short, a command is a function with a unique identifier. The function is sometimes also called command handler.
+コマンドを処理するための名前空間。
+コマンドは一意の識別子をもつ関数です。
+この関数はコマンドハンドラーと呼ばれることもあります。
 
-Commands can be added to the editor using the registerCommand and registerTextEditorCommand functions. Commands can be executed manually or from a UI gesture. Those are:
+[registerCommand](#registercommand)関数と[registerTextEditorCommand](#registertexteditorcommand)関数を使用してコマンドをエディタに追加できます。
 
-palette - Use the commands-section in package.json to make a command show in the command palette.
-keybinding - Use the keybindings-section in package.json to enable keybindings for your extension.
-Commands from other extensions and from the editor itself are accessible to an extension. However, when invoking an editor command not all argument types are supported.
+コマンドは手動で実行することもUIジェスチャーから実行することもできます。
 
-This is a sample that registers a command handler and adds an entry for that command to the palette. First register a command handler with the identifier extension.sayHello.
++ コマンドパレットに表示するには`package.json`の`commands`セクションに記載します。
++ 拡張機能のキーバインドを有効にするには`package.json`の`keybindings`セクションに記載します。
+
+他の拡張機能やエディタ自体からのコマンドは、拡張機能からアクセスできます。
+ただし、エディターコマンドを呼び出す場合、全ての引数の型がサポートされるわけではありません。
+
+## サンプル
+
+コマンドハンドラーを登録し、そのコマンドのエントリをコマンドパレットに追加するサンプルです。
+まずは`extension.sayHello`という識別子でコマンドハンドラーを登録します。
 
 ```typescript
 commands.registerCommand('extension.sayHello', () => {
@@ -16,7 +25,7 @@ commands.registerCommand('extension.sayHello', () => {
 });
 ```
 
-Second, bind the command identifier to a title under which it will show in the palette (package.json).
+次に`package.json`の`commands`セクションに識別子とパレットに表示されるタイトルを記載します。
 
 ```json
 {
@@ -38,6 +47,11 @@ Second, bind the command identifier to a title under which it will show in the p
 ```typescript
 executeCommand<T>(command: string, ...rest: any[]): Thenable<T>
 ```
+
+指定されたコマンド識別子で示されるコマンドを実行します。
+
+1. エディターコマンドを実行する場合、全ての型を引数として渡すことができるわけではありません。
+   許可されるのは、プリミティブ型である`string`, `boolean`, `number`, `undefined`, `null`ならびに[`Position`](Position.md), [`Range`](Range.md), [`Uri`](Uri.md), [`Location`](Location.md)です。
 
 ### getCommands
 
