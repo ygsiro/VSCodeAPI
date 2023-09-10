@@ -38,6 +38,7 @@ if __name__ == "__main__":
         link_list = []
         for word in cl:
             if word in wl:
-                link_list.append(f"[{word}]: {wl[word]}")
+                link_list.append(f"[{word}]: {wl[word]}\n")
         if link_list:
-            print(link_list)
+            with open(fname, mode="a") as a_f:
+                a_f.writelines(link_list)
