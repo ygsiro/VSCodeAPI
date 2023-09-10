@@ -15,3 +15,4 @@ provideReferences(document: TextDocument, position: Position, context: Reference
 [Position]: Position.md
 [TextDocument]: TextDocument.md
 [CancellationToken]: CancellationToken.md
+[Locaation]: Location.md

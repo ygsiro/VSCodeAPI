@@ -46,3 +46,4 @@ location: Location
 logMessage?: string
 ```
 
+[Locaation]: Location.md

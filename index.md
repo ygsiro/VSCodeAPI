@@ -203,6 +203,7 @@
 + [LanguageStatusSeverity](LanguageStatusSeverity.md)
 + [LinkedEditingRangeProvider](LinkedEditingRangeProvider.md)
 + [LinkedEditingRanges](LinkedEditingRanges.md)
++ [Location](Location.md)
 + [LocationLink](LocationLink.md)
 + [LogLevel](LogLevel.md)
 + [LogOutputChannel](LogOutputChannel.md)

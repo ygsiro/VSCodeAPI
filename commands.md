@@ -48,6 +48,11 @@ commands.registerCommand('extension.sayHello', () => {
 executeCommand<T>(command: string, ...rest: any[]): Thenable<T>
 ```
 
+指定されたコマンド識別子で示されるコマンドを実行します。
+
+1. エディターコマンドを実行する場合、全ての型を引数として渡すことができるわけではありません。
+   許可されるのは、プリミティブ型である`string`, `boolean`, `number`, `undefined`, `null`ならびに[`Position`](Position.md), [`Range`](Range.md), [`Uri`](Uri.md), [`Location`](Location.md)です。
+
 ### getCommands
 
 ```typescript

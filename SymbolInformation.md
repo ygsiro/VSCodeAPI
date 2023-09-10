@@ -47,3 +47,4 @@ tags?: readonly Deprecated[]
 [Range]: Range.md
 [Uri]: Uri.md
 [SymbolKind]: SymbolKind.md
+[Locaation]: Location.md
