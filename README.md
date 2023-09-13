@@ -16,3 +16,5 @@ codeブロックの中でVS Code APIで定義されている型のみmarkdownフ
 HTMLファイルに変換するときにコードブロック内でリンクとして機能するとありがたい
 
 -> highlight.jsの前処理にmarkdownファイルのリンクを渡せばできそうではある。
+
+hitomi
