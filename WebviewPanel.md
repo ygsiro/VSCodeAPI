@@ -115,6 +115,23 @@ Both cases fire the `onDispose` event.
 reveal(viewColumn?: ViewColumn, preserveFocus?: boolean): void
 ```
 
+Show the webview panel in a given column.
+
+A webview panel may only show in a single column at a time.
+If it is already showing, this method moves it to new column.
+
+**Parameter**
+
++ *viewColumn*?: [ViewColumn]
+  + View column to show the panel in.
+    Shows in the current `viewColumn` if undefined.
++ *preserveFocus*?: boolean
+  + When `true`, the webview will not take focus.
+
+**Returns**
+
++ void
+
 [WebviewPanelOnDidChangeViewStateEvent]: WebviewPanelOnDidChangeViewStateEvent.md
 [Uri]: Uri.md
 [ViewColumn]: ViewColumn.md
