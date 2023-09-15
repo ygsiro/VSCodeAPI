@@ -10,6 +10,9 @@ Namespace for dealing with the current window of the editor. That is visible and
 activeColorTheme: ColorTheme
 ```
 
+The currently active color theme as configured in the settings.
+The active theme can be changed via the `workbench.colorTheme` setting.
+
 ### activeNotebookEditor
 
 ```typescript
