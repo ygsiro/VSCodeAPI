@@ -95,6 +95,15 @@ The underlying webview for the view.
 show(preserveFocus?: boolean): void
 ```
 
+Reveal the view in the UI.
+
+If the view is collapsed, this will expand it.
+
+**Parameter**
+
++ *preserveFocus*?: boolean
+  + When `true` the view will not take focus.
+
 [Event]: EventT.md
 [Webview]: Webview.md
 [ViewBadge]: ViewBadge.md
