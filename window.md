@@ -63,6 +63,8 @@ Represents the grid widget within the main editor area.
 terminals: readonly Terminal[]
 ```
 
+The currently opened terminals or an empty array.
+
 ### visibleNotebookEditors
 
 ```typescript
