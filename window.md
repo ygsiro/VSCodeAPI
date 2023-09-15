@@ -37,6 +37,10 @@ The active terminal is the one that currently has focus or most recently had foc
 activeTextEditor: TextEditor | undefined
 ```
 
+The currently active editor or `undefined`.
+The active editor is the one that currently has focus or,
+when none has focus, the one that has changed input most recently.
+
 ### state
 
 ```typescript
