@@ -410,8 +410,39 @@ Create and show a new webview panel.
 ### registerCustomEditorProvider
 
 ```typescript
-registerCustomEditorProvider(viewType: string, provider: CustomTextEditorProvider | CustomReadonlyEditorProvider<CustomDocument> | CustomEditorProvider<CustomDocument>, options?: {supportsMultipleEditorsPerDocument: boolean, webviewOptions: WebviewPanelOptions}): Disposable
+registerCustomEditorProvider(
+    viewType: string,
+    provider: 
+        CustomTextEditorProvider |
+        CustomReadonlyEditorProvider<CustomDocument> |
+        CustomEditorProvider<CustomDocument>,
+    options?: {supportsMultipleEditorsPerDocument: boolean, webviewOptions: WebviewPanelOptions}):
+        Disposable
 ```
+
+Register a provider for custom editors for the `viewType` contribute by the `customEditors` extension point.
+
+When a custom editor is opened, an `onCustomEditor: viewType` activation event is fired.
+Your extension must register a [CustomTextEditorProvider], [CustomReadonlyEditorProvider],
+[CustomEditorProvider] for `viewType` as part of activation.
+
+**Parameter**
+
++ *viewType*: string
+  + Unique identifier for the custom editor provider.
+    This should match the `viewType` form the `customEditors` contribution point.
++ *provider*: [CustomTextEditorProvider] |
+  [CustomReadonlyEditorProvider]&lt;[CustomDocument]&gt; |
+  [CustomEditorProvider]&lt;[CustomDocument]&gt;
+  + Provider that resolves custom editors.
++ *options*?: {*supportsMultipleEditorsPerDocument*: boolean, *webviewOptions*: [WebviewPanelOptions]}
+  + Options for the provider.
+
+**Returns**
+
++ [Disposable]
+  + Disposable that unregisters the provider.
+
 
 ### registerFileDecorationProvider
 
