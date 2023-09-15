@@ -99,6 +99,16 @@ webview: Webview
 dispose(): any
 ```
 
+Dispose of the webview panel.
+
+This closes the panel if it showing and disposes of the resources owned by the webview.
+Webview panels are also disposed when the user closes the webview panel.
+Both cases fire the `onDispose` event.
+
+**Returns**
+
++ any
+
 ### reveal
 
 ```typescript
