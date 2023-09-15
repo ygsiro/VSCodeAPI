@@ -348,6 +348,18 @@ The cwd of the terminal will be the workspace directory if it exists.
 createTextEditorDecorationType(options: DecorationRenderOptions): TextEditorDecorationType
 ```
 
+Create a TextEditorDecorationType that can be used to add decorations to text editors.
+
+**Parameter**
+
++ *options*: [DecorationRenderOptions]
+  + Rendering options for the decoration type
+
+**Returns**
+
++ [TextEditorDecorationType]
+  + A new decoration type instance.
+
 ### createTreeView
 
 ```typescript
