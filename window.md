@@ -19,6 +19,9 @@ The active theme can be changed via the `workbench.colorTheme` setting.
 activeNotebookEditor: NotebookEditor | undefined
 ```
 
+The currently active notebook editor or `undefined`.
+The active editor is the one that currently has focus or, when none has focus, the one that has changed input most recently.
+
 ### activeTerminal
 
 ```typescript
