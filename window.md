@@ -337,24 +337,13 @@ showOpenDialog(options?: OpenDialogOptions): Thenable<Uri[] | undefined>
 ### showQuickPick
 
 ```typescript
+//1)
 showQuickPick(items: readonly string[] | Thenable<readonly string[]>, options: QuickPickOptions & {canPickMany: true}, token?: CancellationToken): Thenable<string[] | undefined>
-```
-
-### showQuickPick
-
-```typescript
+//2)
 showQuickPick(items: readonly string[] | Thenable<readonly string[]>, options?: QuickPickOptions, token?: CancellationToken): Thenable<string | undefined>
-```
-
-### showQuickPick
-
-```typescript
+//3)
 showQuickPick<T extends QuickPickItem>(items: readonly T[] | Thenable<readonly T[]>, options: QuickPickOptions & {canPickMany: true}, token?: CancellationToken): Thenable<T[] | undefined>
-```
-
-### showQuickPick
-
-```typescript
+//4)
 showQuickPick<T extends QuickPickItem>(items: readonly T[] | Thenable<readonly T[]>, options?: QuickPickOptions, token?: CancellationToken): Thenable<T | undefined>
 ```
 
@@ -378,21 +367,13 @@ showTextDocument(uri: Uri, options?: TextDocumentShowOptions): Thenable<TextEdit
 ### showWarningMessage
 
 ```typescript
-showWarningMessage<T extends string>(message: string, ...items: T[]): Thenable<T | undefined>
-```
-
-### showWarningMessage
-
-```typescript
-showWarningMessage<T extends string>(message: string, options: MessageOptions, ...items: T[]): Thenable<T | undefined>
-```
-
-### showWarningMessage
-
-```typescript
 //1)
-showWarningMessage<T extends MessageItem>(message: string, ...items: T[]): Thenable<T | undefined>
+showWarningMessage<T extends string>(message: string, ...items: T[]): Thenable<T | undefined>
 //2)
+showWarningMessage<T extends string>(message: string, options: MessageOptions, ...items: T[]): Thenable<T | undefined>
+//3)
+showWarningMessage<T extends MessageItem>(message: string, ...items: T[]): Thenable<T | undefined>
+//4)
 showWarningMessage<T extends MessageItem>(message: string, options: MessageOptions, ...items: T[]): Thenable<T | undefined>
 ```
 
