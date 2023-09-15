@@ -40,6 +40,8 @@ Whether the panel is active (focused by the user).
 iconPath?: Uri | {dark: Uri, light: Uri}
 ```
 
+Icon for the panel shown in UI.
+
 ### options
 
 ```typescript
