@@ -56,11 +56,15 @@ Content settings for the webview panel.
 title: string
 ```
 
+Title of the panel shown in UI.
+
 ### viewColumn
 
 ```typescript
 viewColumn: ViewColumn
 ```
+
+
 
 ### viewType
 
