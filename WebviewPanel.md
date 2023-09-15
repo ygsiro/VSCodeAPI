@@ -10,6 +10,8 @@ A panel that contains a webview.
 onDidChangeViewState: Event<WebviewPanelOnDidChangeViewStateEvent>
 ```
 
+Fired when the panel's view state changes.
+
 ### onDidDispose
 
 ```typescript
