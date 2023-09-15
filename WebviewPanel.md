@@ -48,6 +48,8 @@ Icon for the panel shown in UI.
 options: WebviewPanelOptions
 ```
 
+Content settings for the webview panel.
+
 ### title
 
 ```typescript
