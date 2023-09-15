@@ -64,7 +64,8 @@ Title of the panel shown in UI.
 viewColumn: ViewColumn
 ```
 
-
+Editor position of the panel.
+This property is only set if the webview is in one of the editor view columns.
 
 ### viewType
 
