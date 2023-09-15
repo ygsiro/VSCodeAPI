@@ -286,6 +286,19 @@ createQuickPick should be used when showQuickPick does not offer the required fl
 createStatusBarItem(id: string, alignment?: StatusBarAlignment, priority?: number): StatusBarItem
 ```
 
+Create a status bar item.
+
+**Parameter**
+
++ *id*: string
+  + The identifier of the item.
+    Must be unique within the extension.
++ *alignment*: [StatusBarAlignment]
+  + The alignment of the item.
++ *priority*: number
+  + The priority of the item.
+    Higher values mean the item should be shown more to the left.
+
 ### createStatusBarItem
 
 ```typescript
