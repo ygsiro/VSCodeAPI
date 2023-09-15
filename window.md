@@ -55,6 +55,8 @@ Represents the current window's state.
 tabGroups: TabGroups
 ```
 
+Represents the grid widget within the main editor area.
+
 ### terminals
 
 ```typescript
