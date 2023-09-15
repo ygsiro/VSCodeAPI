@@ -270,6 +270,16 @@ Create a new log output channel with the given name.
 createQuickPick<T extends QuickPickItem>(): QuickPick<T>
 ```
 
+Creates a [QuickPick] to left the user pick an item from a list of items of type T.
+
+Note that in many cases the more convenient showQuickPick is easier to use.
+createQuickPick should be used when showQuickPick does not offer the required flexibility.
+
+**Returns**
+
++ [QuickPick]&lt;T&gt;
+  + A new [QuickPick]
+
 ### createStatusBarItem
 
 ```typescript
