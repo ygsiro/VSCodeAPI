@@ -106,11 +106,17 @@ Note that the event also fires when the active editor changes to `undefined`.
 onDidChangeActiveTerminal: Event<Terminal | undefined>
 ```
 
+An Event which fires when the active terminal has changed.
+Note that the event also fires when the active terminal changes to `undefined`.
+
 ### onDidChangeActiveTextEditor
 
 ```typescript
 onDidChangeActiveTextEditor: Event<TextEditor | undefined>
 ```
+
+An Event which fires when the active editor has changed.
+Note that the event also fires when the active editor changes to `undefined`
 
 ### onDidChangeNotebookEditorSelection
 
@@ -118,11 +124,15 @@ onDidChangeActiveTextEditor: Event<TextEditor | undefined>
 onDidChangeNotebookEditorSelection: Event<NotebookEditorSelectionChangeEvent>
 ```
 
+An Event which fires when the notebook editor selections have changed.
+
 ### onDidChangeNotebookEditorVisibleRanges
 
 ```typescript
 onDidChangeNotebookEditorVisibleRanges: Event<NotebookEditorVisibleRangesChangeEvent>
 ```
+
+An Event which fires when the notebook editor visible ranges have changed.
 
 ### onDidChangeTerminalState
 
@@ -130,11 +140,15 @@ onDidChangeNotebookEditorVisibleRanges: Event<NotebookEditorVisibleRangesChangeE
 onDidChangeTerminalState: Event<Terminal>
 ```
 
+An Event which fires when a terminal's state has changed.
+
 ### onDidChangeTextEditorOptions
 
 ```typescript
 onDidChangeTextEditorOptions: Event<TextEditorOptionsChangeEvent>
 ```
+
+An Event which fires when the options of an editor have changed.
 
 ### onDidChangeTextEditorSelection
 
@@ -142,11 +156,15 @@ onDidChangeTextEditorOptions: Event<TextEditorOptionsChangeEvent>
 onDidChangeTextEditorSelection: Event<TextEditorSelectionChangeEvent>
 ```
 
+An Event which fires when the selection in an editor has changed.
+
 ### onDidChangeTextEditorViewColumn
 
 ```typescript
 onDidChangeTextEditorViewColumn: Event<TextEditorViewColumnChangeEvent>
 ```
+
+An Event which fires when the view column of an editor has changed.
 
 ### onDidChangeTextEditorVisibleRanges
 
@@ -154,11 +172,15 @@ onDidChangeTextEditorViewColumn: Event<TextEditorViewColumnChangeEvent>
 onDidChangeTextEditorVisibleRanges: Event<TextEditorVisibleRangesChangeEvent>
 ```
 
+An Event which fires when the visible ranges of an editor has changed.
+
 ### onDidChangeVisibleNotebookEditors
 
 ```typescript
 onDidChangeVisibleNotebookEditors: Event<readonly NotebookEditor[]>
 ```
+
+An Event which fires when the visible notebook editors has changed.
 
 ### onDidChangeVisibleTextEditors
 
@@ -166,11 +188,16 @@ onDidChangeVisibleNotebookEditors: Event<readonly NotebookEditor[]>
 onDidChangeVisibleTextEditors: Event<readonly TextEditor[]>
 ```
 
+An Event which fires when the array of visible editors has changed.
+
 ### onDidChangeWindowState
 
 ```typescript
 onDidChangeWindowState: Event<WindowState>
 ```
+
+An Event which fires when the focus state of the current window changes.
+The value of the event represent whether the window is focused.
 
 ### onDidCloseTerminal
 
@@ -178,11 +205,15 @@ onDidChangeWindowState: Event<WindowState>
 onDidCloseTerminal: Event<Terminal>
 ```
 
+An Event which fires when a terminal is disposed.
+
 ### onDidOpenTerminal
 
 ```typescript
 onDidOpenTerminal: Event<Terminal>
 ```
+
+An Event which fires when a terminal has been created, editor through the createTerminal API or commands.
 
 ## Functions
 
