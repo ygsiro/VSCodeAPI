@@ -283,7 +283,10 @@ createQuickPick should be used when showQuickPick does not offer the required fl
 ### createStatusBarItem
 
 ```typescript
+//1)
 createStatusBarItem(id: string, alignment?: StatusBarAlignment, priority?: number): StatusBarItem
+//2)
+createStatusBarItem(alignment?: StatusBarAlignment, priority?: number): StatusBarItem
 ```
 
 Create a status bar item.
@@ -299,11 +302,10 @@ Create a status bar item.
   + The priority of the item.
     Higher values mean the item should be shown more to the left.
 
-### createStatusBarItem
+**Returns**
 
-```typescript
-createStatusBarItem(alignment?: StatusBarAlignment, priority?: number): StatusBarItem
-```
++ [StatusBarItem]
+  + A new status bar item.
 
 ### createTerminal
 
