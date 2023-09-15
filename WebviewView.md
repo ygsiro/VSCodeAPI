@@ -40,11 +40,16 @@ Trying to use the view after it has been disposed throws an exception.
 badge?: ViewBadge
 ```
 
+The badge to display for this webview view.
+To remove the badge, set to undefined.
+
 ### description
 
 ```typescript
 description?: string
 ```
+
+Human-readable string which is rendered less prominently in the title.
 
 ### title
 
@@ -52,11 +57,17 @@ description?: string
 title?: string
 ```
 
+View title displayed in the UI.
+
+The view title is initially taken from the extension `package.json` contribution.
+
 ### viewType
 
 ```typescript
 viewType: string
 ```
+
+Identifies the type of the webview view, such as `hexEditor.dataView`.
 
 ### visible
 
@@ -64,11 +75,17 @@ viewType: string
 visible: boolean
 ```
 
+Tracks if the webview is currently visible.
+
+Views are visible when they are on the screen and expanded.
+
 ### webview
 
 ```typescript
 webview: Webview
 ```
+
+The underlying webview for the view.
 
 ## Methods
 
