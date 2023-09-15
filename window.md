@@ -79,6 +79,8 @@ The currently visible notebook editors or an empty array.
 visibleTextEditors: readonly TextEditor[]
 ```
 
+The currently visible editors or an empty array.
+
 ## Events
 
 ### onDidChangeActiveColorTheme
