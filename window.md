@@ -89,6 +89,8 @@ The currently visible editors or an empty array.
 onDidChangeActiveColorTheme: Event<ColorTheme>
 ```
 
+An Event which fires when the active color theme is changed or has changes.
+
 ### onDidChangeActiveNotebookEditor
 
 ```typescript
