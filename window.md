@@ -71,6 +71,8 @@ The currently opened terminals or an empty array.
 visibleNotebookEditors: readonly NotebookEditor[]
 ```
 
+The currently visible notebook editors or an empty array.
+
 ### visibleTextEditors
 
 ```typescript
