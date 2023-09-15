@@ -383,8 +383,29 @@ Create a TreeView for the view contributed using the extension point `views`.
 ### createWebviewPanel
 
 ```typescript
-createWebviewPanel(viewType: string, title: string, showOptions: ViewColumn | {preserveFocus: boolean, viewColumn: ViewColumn}, options?: WebviewPanelOptions & WebviewOptions): WebviewPanel
+createWebviewPanel(
+    viewType: string,
+    title: string,
+    showOptions: ViewColumn | {preserveFocus: boolean, viewColumn: ViewColumn},
+    options?: WebviewPanelOptions & WebviewOptions):
+        WebviewPanel
 ```
+
+Create and show a new webview panel.
+
+**Parameter**
+
++ *viewType*: string
+  + Identifies the type of the webview panel.
++ *title*: string
+  + Title of the panel.
++ *options*:? [WebviewPanelOptions] & [WebviewOptions]
+  + Setting for the new panel.
+
+**Returns**
+
++ [WebviewPanel]
+  + New webview panel.
 
 ### registerCustomEditorProvider
 
