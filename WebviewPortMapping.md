@@ -10,9 +10,13 @@ Defines a port mapping used for localhost inside the webview.
 extensionHostPort: number
 ```
 
+Destination port.
+`webviewPort` is resolved to this port.
+
 ### webviewPort
 
 ```typescript
 webviewPort: number
 ```
 
+Localhost port to remap inside the webview.
