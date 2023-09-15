@@ -81,6 +81,8 @@ Identifies the type of the webview panel, such as `markdown.preview`.
 visible: boolean
 ```
 
+Whether the panel is visible.
+
 ### webview
 
 ```typescript
