@@ -223,6 +223,16 @@ An Event which fires when a terminal has been created, editor through the create
 createInputBox(): InputBox
 ```
 
+Create a InputBox to let the user enter some text input.
+
+Note that in many cases the more convenient showInputBox is easier to use.
+createInputBox should be used when showInputBox does not offer the required flexibility.
+
+**Returns**
+
++ [InputBox]
+  + A new [InputBox]
+
 ### createOutputChannel
 
 ```typescript
@@ -231,6 +241,28 @@ createOutputChannel(name: string, languageId?: string): OutputChannel
 //2)
 createOutputChannel(name: string, options: {log: true}): LogOutputChannel
 ```
+
+1)  
+Create a new output channel with the given name and language id if language id is not provided, then Log is used as default language id.
+
+You can access the visible or active output channel as a text document from visible editor or active editor and use the language id to contribute language features like syntax coloring, code lens etc...
+
+2)  
+Create a new log output channel with the given name.
+
+**Parameter**
+
++ *name*: string
+  + Human-readable string which will be used to represent the channel in the UI.
++ *languageId*?: string
+  + The identifier of the language associated with the channel
++ *options*: {log: true}
+  + options for the log output channel.
+
+**Returns**
+
++ [OutputChannel]
++ [LogOutputChannel]
 
 ### createQuickPick
 
