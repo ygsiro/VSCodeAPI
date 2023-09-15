@@ -89,6 +89,8 @@ Whether the panel is visible.
 webview: Webview
 ```
 
+[Webview] belonging to the panel.
+
 ## Methods
 
 ### dispose
