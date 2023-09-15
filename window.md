@@ -366,6 +366,20 @@ Create a TextEditorDecorationType that can be used to add decorations to text ed
 createTreeView<T>(viewId: string, options: TreeViewOptions<T>): TreeView<T>
 ```
 
+Create a TreeView for the view contributed using the extension point `views`.
+
+**Parameter**
+
++ *viewId*: string
+  + Id of the view contributed using the extension point `views`.
++ *options*: [TreeViewOptions]&lt;T&gt;
+  + a [TreeView]
+
+**Returns**
+
++ [TreeView]&lt;T&gt;
+  + a [TreeView]
+
 ### createWebviewPanel
 
 ```typescript
