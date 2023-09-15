@@ -28,6 +28,9 @@ The active editor is the one that currently has focus or, when none has focus, t
 activeTerminal: Terminal | undefined
 ```
 
+The currently active terminal or `undefined`.
+The active terminal is the one that currently has focus or most recently had focus.
+
 ### activeTextEditor
 
 ```typescript
