@@ -32,6 +32,8 @@ Trying to use the panel after it after it has been disposed throws an exception.
 active: boolean
 ```
 
+Whether the panel is active (focused by the user).
+
 ### iconPath
 
 ```typescript
