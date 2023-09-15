@@ -10,6 +10,10 @@ Content settings for a webview panel.
 enableFindWidget?: boolean
 ```
 
+Controls if the find widget is enabled in the panel.
+
+Defaults to `false`.
+
 ### retainContextWhenHidden
 
 ```typescript
