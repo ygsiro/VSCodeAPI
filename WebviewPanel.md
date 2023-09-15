@@ -18,6 +18,12 @@ Fired when the panel's view state changes.
 onDidDispose: Event<void>
 ```
 
+Fired when the panel is disposed.
+
+This may be because the user closed the panel or because `.dispose()` was called on it.
+
+Trying to use the panel after it after it has been disposed throws an exception.
+
 ## Properties
 
 ### active
