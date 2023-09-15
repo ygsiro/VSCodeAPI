@@ -97,6 +97,9 @@ An Event which fires when the active color theme is changed or has changes.
 onDidChangeActiveNotebookEditor: Event<NotebookEditor | undefined>
 ```
 
+An Event which fires when the active notebook editor has changed.
+Note that the event also fires when the active editor changes to `undefined`.
+
 ### onDidChangeActiveTerminal
 
 ```typescript
