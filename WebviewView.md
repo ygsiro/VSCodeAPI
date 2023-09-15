@@ -10,6 +10,15 @@ A webview based view.
 onDidChangeVisibility: Event<void>
 ```
 
+Event fired when the visibility of the view changes.
+
+Actions that trigger a visibility change:
+
++ The view is collapsed or expanded.
++ The use switches to a different view group in the sidebar or panel.
+
+Note that hiding a view using the context menu instead disposes of the view and fires `onDidDispose`
+
 ### onDidDispose
 
 ```typescript
