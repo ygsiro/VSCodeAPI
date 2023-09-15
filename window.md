@@ -47,6 +47,8 @@ when none has focus, the one that has changed input most recently.
 state: WindowState
 ```
 
+Represents the current window's state.
+
 ### tabGroups
 
 ```typescript
