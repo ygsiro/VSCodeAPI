@@ -310,20 +310,37 @@ Create a status bar item.
 ### createTerminal
 
 ```typescript
+//1)
 createTerminal(name?: string, shellPath?: string, shellArgs?: string | readonly string[]): Terminal
-```
-
-### createTerminal
-
-```typescript
+//2)
 createTerminal(options: TerminalOptions): Terminal
-```
-
-### createTerminal
-
-```typescript
+//3)
 createTerminal(options: ExtensionTerminalOptions): Terminal
 ```
+
+Creates a Terminal with a backing shell process.
+The cwd of the terminal will be the workspace directory if it exists.
+
++ *throws* - When running in an environment where a new process cannot be started.
+
+**Parameter**
+
++ *name*?: string
+  + Optional human-readable string which will be used to represent the terminal in the UI.
++ *shellPath*?: string
+  + Optional path to a custom shell executable to be used in the terminal
++ *shellArgs*: string | readonly string[]
+  + Optional args for the custom shell executable.
+    A string can be used on Windows only which allows specifying shell args in command-line format
++ *options*: [TerminalOptions]
+  + A terminalOptions object describing the characteristics of the new terminal
++ *options*: [ExtensionTerminalOptions]
+  + An ExtensionTerminalOptions object describing the characteristics of the new terminal
+
+**Returns**
+
++ [Terminal]
+  + A new Terminal
 
 ### createTextEditorDecorationType
 
