@@ -25,6 +25,13 @@ Note that hiding a view using the context menu instead disposes of the view and 
 onDidDispose: Event<void>
 ```
 
+Event fired when the view is disposed.
+
+Views are disposed when they are explicitly hidden by a user
+(this happens when a user right clicks in a view and unchecks the webview view).
+
+Trying to use the view after it has been disposed throws an exception.
+
 ## Properties
 
 ### badge
