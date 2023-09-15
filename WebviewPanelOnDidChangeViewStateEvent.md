@@ -10,4 +10,6 @@ Event fired when a webview panel's view state changes.
 webviewPanel: WebviewPanel
 ```
 
+Webview panel whose view state changed.
+
 [WebviewPanel]: WebviewPanel.md
