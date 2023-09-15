@@ -73,6 +73,8 @@ This property is only set if the webview is in one of the editor view columns.
 viewType: string
 ```
 
+Identifies the type of the webview panel, such as `markdown.preview`.
+
 ### visible
 
 ```typescript
