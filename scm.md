@@ -8,6 +8,10 @@
 inputBox: SourceControlInputBox
 ```
 
+The input box for the last source control created by the extension.
+
++ *deprecated* - Use SourceControl.inputBox instead
+
 ## Functions
 
 ### createSourceControl
