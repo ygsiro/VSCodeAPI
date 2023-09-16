@@ -896,6 +896,31 @@ Returns `undefined` if no folder is open.
 withProgress<R>(options: ProgressOptions, task: (progress: Progress<{increment: number, message: string}>, token: CancellationToken) => Thenable<R>): Thenable<R>
 ```
 
+Show progress in the editor.
+Progress is shown while running the given callback and while the promise it returned isn't resolved nor rejected.
+The location at which progress should show (and other details) is defined via the passed [ProgressOptions].
+
+**Parameter**
+
++ *options*: [ProgressOptions]
++ *task*: (*progress*: [Progress]&lt;{*increment*: number, *message*: string}&gt;,
+  token: [CancellationToken]) => Thenable&lt;R&gt;
+  + A callback returning a promise.
+    Progress state can be reported with the provided [Progress] object.
+  + To report discrete progress, use `increment` to indicate how much work has been completed.
+    Each call with a `increment` value will be summed up and reflected as overall progress until 100% is reached
+    (a value of e.g. `10` accounts for `10%` of work done).
+    `ProgressLocation.Notification` is capable of showing discrete progress.
+  + To monitor if the operation has been cancelled by the user, 
+    use the provided [CancellationToken].
+    Note that currently only `ProgressLocation.Notification` is supporting to show a cancel button to cancel
+    the long running operation.
+
+**Returns**
+
++ Thenable&lt;R&gt;
+  + The thenable the task-callback returned.
+
 ### withScmProgress
 
 ```typescript
