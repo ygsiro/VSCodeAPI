@@ -10,16 +10,22 @@ An event describing the changes to the set of breakpoints.
 added: readonly Breakpoint[]
 ```
 
+Added breakpoints.
+
 ### changed
 
 ```typescript
 changed: readonly Breakpoint[]
 ```
 
+Changed breakpoints.
+
 ### removed
 
 ```typescript
 removed: readonly Breakpoint[]
 ```
+
+Removed breakpoints.
 
 [Breakpoint]: Breakpoint.md
