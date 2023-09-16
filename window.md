@@ -562,6 +562,25 @@ Note There is an activation event `onUri` that fires when a uri directed for the
 registerWebviewPanelSerializer(viewType: string, serializer: WebviewPanelSerializer<unknown>): Disposable
 ```
 
+Registers a webview panel serializer.
+
+Extension that support reviving should have an `"onWebviewPanel: viewType"`
+activation event and make sure that `registerWebviewPanelSerializer` is called during activation.
+
+Only a single serializer may be registered at a time for a given `viewType`.
+
+**Parameter**
+
++ *viewType*: string
+  + Type of the webview panel that can be serialized.
++ *serializer*: [WebviewPanelSerializer]&lt;unknown&gt;
+  + Webview serializer.
+
+**Returns**
+
++ [Disposable]
+  + Disposable that unregisters the provider.
+
 ### registerWebviewViewProvider
 
 ```typescript
