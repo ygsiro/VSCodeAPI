@@ -10,6 +10,8 @@ Accessibility information which controls screen reader behavior.
 label: string
 ```
 
+Label to be read out by a screen reader once the item has focus.
+
 ### role
 
 ```typescript
