@@ -700,6 +700,19 @@ Optionally provide an array pf items which will be presented as clickable button
 showInputBox(options?: InputBoxOptions, token?: CancellationToken): Thenable<string | undefined>
 ```
 
+Opens an input box to ask the user for input.
+
+The returned value will be `undefined` if the input box was canceled (e.g. pressing ESC).
+Otherwise the returned value will be the string typed by the user or
+an empty string if the use did not type anything but dismissed the input box with OK.
+
+**Parameter**
+
++ *options*?: [InputBoxOptions]
+  + Configures the behavior of the input box.
++ *token*?: [CancellationToken]
+  + A token that can be used to signal cancellation.
+
 ### showNotebookDocument
 
 ```typescript
