@@ -464,9 +464,21 @@ Register a file decoration provider.
 
 ### registerTerminalLinkProvider
 
+Register provider that enables the detection and handling of links within the terminal.
+
 ```typescript
 registerTerminalLinkProvider(provider: TerminalLinkProvider<TerminalLink>): Disposable
 ```
+
+**Parameter**
+
++ *provider*: [TerminalLinkProvider]&lt;[TerminalLink]&gt;
+  + The provider that provides the terminal links.
+
+**Returns**
+
++ [Disposable]
+  + Disposable that unregisters the provider.
 
 ### registerTerminalProfileProvider
 
