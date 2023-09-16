@@ -812,6 +812,34 @@ showTextDocument(document: TextDocument, options?: TextDocumentShowOptions): The
 showTextDocument(uri: Uri, options?: TextDocumentShowOptions): Thenable<TextEditor>
 ```
 
+Show the given document in a text editor.
+A column can be provided to control where the editor is being shown.
+Might change the active editor.
+
+3) A short-hand for `openTextDocument(uri).then(document => showTextDocument(document, options))`.
+
+**Parameter**
+
++ *document*: [TextDocument]
+  + A text document to be shown.
++ *column*?: [ViewColumn]
+  + A view column in which the editor should be shown.
+    The default is the active.
+    Columns that do not exist will be created as needed up to the maximum of Nine.
+    Use Beside to open the editor to the side of the currently active one.
++ *preserveFocus*?: boolean
+  + When `true` the editor will not take focus.
++ *uri*: [Uri]
+  + A resource identifier.
++ *options*?: [TextDocumentShowOptions]
+  + Editor options to configure the behavior of showing the editor.
+
+**Returns**
+
++ Thenable&lt;[TextEditor]&gt;
+  + A promise that resolves to an editor.
+
+
 ### showWarningMessage
 
 ```typescript
