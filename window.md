@@ -927,6 +927,22 @@ The location at which progress should show (and other details) is defined via th
 withScmProgress<R>(task: (progress: Progress<number>) => Thenable<R>): Thenable<R>
 ```
 
+Show progress in the Source Control viewlet while running
+the given callback and while its returned promise isn't resolve or rejected.
+
++ *deprecated* - Use `withProgress` instead.
+
+**Parameter**
+
++ *task*: (*progress*: [Progress]&lt;number&gt;) => Thenable&lt;R&gt;
+  + A callback returning a promise.
+  Progress increments can be reported with the provided [Progress]-object.
+
+**Returns**
+
++ Thenable&lt;R&gt;
+  + The thenable the task
+
 [Terminal]: Terminal.md
 [SaveDialogOptions]: SaveDialogOptions.md
 [TextEditorOptionsChangeEvent]: TextEditorOptionsChangeEvent.md
