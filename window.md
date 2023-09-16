@@ -587,6 +587,22 @@ Only a single serializer may be registered at a time for a given `viewType`.
 registerWebviewViewProvider(viewId: string, provider: WebviewViewProvider, options?: {webviewOptions: {retainContextWhenHidden: boolean}}): Disposable
 ```
 
+Register a new provider for webview views.
+
+**Parameter**
+
++ *viewId*: string
+  + Unique id of the view.
+    This should match the `id` from the `views` contribution in the package.json.
++ *provider*: [WebviewViewProvider]
+  + Provider for the webview views.
++ *options*?: {*webviewOptions*: {*retainContextWhenHidden*: boolean}}
+
+**Returns**
+
++ [Disposable]
+  + Disposable that unregisters the provider.
+
 ### setStatusBarMessage
 
 ```typescript
