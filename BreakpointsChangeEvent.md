@@ -26,4 +26,6 @@ Changed breakpoints.
 removed: readonly Breakpoint[]
 ```
 
+Removed breakpoints.
+
 [Breakpoint]: Breakpoint.md
