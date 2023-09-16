@@ -450,6 +450,18 @@ Your extension must register a [CustomTextEditorProvider], [CustomReadonlyEditor
 registerFileDecorationProvider(provider: FileDecorationProvider): Disposable
 ```
 
+Register a file decoration provider.
+
+**Parameter**
+
++ *provider*: [FileDecorationProvider]
+  + A [FileDecorationProvider].
+
+**Returns**
+
++ [Disposable]
+  + A [Disposable] that unregisters the provider.
+
 ### registerTerminalLinkProvider
 
 ```typescript
