@@ -789,6 +789,18 @@ Shows a selection list allowing multiple selections.
 showSaveDialog(options?: SaveDialogOptions): Thenable<Uri | undefined>
 ```
 
+Shows a file save dialog to the user which allows to select a file for saving-purposes.
+
+**Parameter**
+
++ *options*?: [SaveDialogOptions]
+  + Options that control the dialog.
+
+**Returns**
+
++ Thenable&lt;[Uri] | undefined&gt;
+  + A promise that resolves to the selected resource or `undefined`.
+
 ### showTextDocument
 
 ```typescript
