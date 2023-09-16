@@ -764,6 +764,25 @@ showQuickPick<T extends QuickPickItem>(items: readonly T[] | Thenable<readonly T
 showQuickPick<T extends QuickPickItem>(items: readonly T[] | Thenable<readonly T[]>, options?: QuickPickOptions, token?: CancellationToken): Thenable<T | undefined>
 ```
 
+Shows a selection list allowing multiple selections.
+
+**Parameter**
+
++ *items*: readonly string[] | Thenable&lt;readonly string[]&gt;
+  + An array of strings, or a promise that resolves to an array of strings.
++ *options*: [QuickPickOptions] & {*canPickMany*: true}
+  + Configures the behavior of the selection list.
++ *token*?: [CancellationToken]
+  + A token that can be used to signal cancellation.
+
+**Returns**
+
++ Thenable&lt;string[] | undefined&gt;
++ Thenable&lt;string | undefined&gt;
++ Thenable&lt;T[] | undefined&gt;
++ Thenable&lt;T | undefined&gt;
+  + A promise that resolves to the selected items or `undefined`.
+
 ### showSaveDialog
 
 ```typescript
