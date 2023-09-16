@@ -853,6 +853,24 @@ showWarningMessage<T extends MessageItem>(message: string, ...items: T[]): Thena
 showWarningMessage<T extends MessageItem>(message: string, options: MessageOptions, ...items: T[]): Thenable<T | undefined>
 ```
 
+Show a warning message.
+
+See also [showInformationMessage](#showinformationmessage)
+
+**Parameter**
+
++ *message*: string
+  + The message to show.
++ *options*: [MessageOptions]
+  + Configures the behaviour of the message.
++ ...*items*: T[]
+  + A set of items that will be rendered as actions in the message.
+
+**Returns**
+
++ Thenable&lt;T | undefined&gt;
+  + A thenable that resolves to the selected item or `undefined` when being dismissed.
+
 ### showWorkspaceFolderPick
 
 ```typescript
