@@ -606,17 +606,32 @@ Register a new provider for webview views.
 ### setStatusBarMessage
 
 ```typescript
-setStatusBarMessage(text: string, hideAfterTimeout: number): Disposable
-```
-
-### setStatusBarMessage
-
-```typescript
 //1)
-setStatusBarMessage(text: string, hideWhenDone: Thenable<any>): Disposable
+setStatusBarMessage(text: string, hideAfterTimeout: number): Disposable
 //2)
+setStatusBarMessage(text: string, hideWhenDone: Thenable<any>): Disposable
+//3)
 setStatusBarMessage(text: string): Disposable
 ```
+
+Set a message to the status bar.
+This is a short hand for the more powerful status bar items.
+
+Note that status bar messages stack and that they must be disposed when no longer used.
+
+**Parameter**
+
++ *text*: string
+  + The message to show, supports icon substitution as in status bar items.
++ *hideAfterTimeout*: number
+  + Timeout in milliseconds after which the message will be disposed.
++ *hideWhenDone*: Thenable&lt;any&gt;
+  + Thenable on which completion (resolve or reject) the message will be disposed.
+
+**Returns**
+
++ [Disposable]
+  + A disposable which hides the status bar message.
 
 ### showErrorMessage
 
