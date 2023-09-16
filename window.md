@@ -656,7 +656,7 @@ See also [showInformationMessage](#showinformationmessage)
   + The message to show.
 + *options*: [MessageOptions]
   + Configures the behaviour of the message.
-+ ...items: T[]
++ ...*items*: T[]
   + A set of items that will be rendered as actions in the message.
 
 **Returns**
@@ -676,6 +676,23 @@ showInformationMessage<T extends MessageItem>(message: string, ...items: T[]): T
 //4)
 showInformationMessage<T extends MessageItem>(message: string, options: MessageOptions, ...items: T[]): Thenable<T | undefined>
 ```
+
+Show an information message to users.
+Optionally provide an array pf items which will be presented as clickable buttons.
+
+**Parameter**
+
++ *message*: string
+  + The message to show
++ *options*: [MessageOptions]
+  + Configures the behaviour of the message.
++ ...*items*: T[]
+  + A set of items that will be rendered as actions in the message.
+
+**Returns**
+
++ Thenable&lt;T | undefined&gt;
+  + A thenable that resolves to the selected item or `undefined` when being dismissed.
 
 ### showInputBox
 
