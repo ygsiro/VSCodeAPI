@@ -719,6 +719,20 @@ an empty string if the use did not type anything but dismissed the input box wit
 showNotebookDocument(document: NotebookDocument, options?: NotebookDocumentShowOptions): Thenable<NotebookEditor>
 ```
 
+Show the given [NotebookDocument] in a notebook editor.
+
+**Parameter**
+
++ *document*: [NotebookDocument]
+  + A text document to be shown.
++ *options*?: [NotebookDocumentShowOptions]
+  + Editor options to configure the behavior of showing the notebook editor.
+
+**Returns**
+
++ Thenable&lt;[NotebookEditor]&gt;
+  + A promise that resolves to an notebook editor.
+
 ### showOpenDialog
 
 ```typescript
