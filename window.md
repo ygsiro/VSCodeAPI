@@ -739,6 +739,18 @@ Show the given [NotebookDocument] in a notebook editor.
 showOpenDialog(options?: OpenDialogOptions): Thenable<Uri[] | undefined>
 ```
 
+Show a file open dialog to user which allows to select a file for opening purposes.
+
+**Parameter**
+
++ *options*?: [OpenDialogOptions]
+  + Options that control the dialog.
+
+**Returns**
+
++ Thenable<[Uri]\[\] | undefined>
+  + A promise that resolves to the selected resources or `undefined`.
+
 ### showQuickPick
 
 ```typescript
