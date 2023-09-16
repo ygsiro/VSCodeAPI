@@ -486,6 +486,8 @@ registerTerminalLinkProvider(provider: TerminalLinkProvider<TerminalLink>): Disp
 registerTerminalProfileProvider(id: string, provider: TerminalProfileProvider): Disposable
 ```
 
+Registers a provider for a contributed terminal profile.
+
 **Parameter**
 
 + *id*: string
@@ -503,6 +505,23 @@ registerTerminalProfileProvider(id: string, provider: TerminalProfileProvider): 
 ```typescript
 registerTreeDataProvider<T>(viewId: string, treeDataProvider: TreeDataProvider<T>): Disposable
 ```
+
+Register a [TreeDataProvider] for the view contributed using the extension point `views`.
+This will allow you to contribute data to the [TreeView] and update if the data changes.
+
+Note To get access to the [TreeView] and perform operations on it, use [createTreeView](#createtreeview).
+
+**Parameter**
+
++ *viewId*: string
+  + Id of the view contributed using the extension point `views`.
++ treeDataProvider: [TreeDataProvider]&lt;T&gt;
+  + A [TreeDataProvider] that provides tree data for the view.
+
+**Returns**
+
++ [Disposable]
+  + Disposable that unregisters the provider.
 
 ### registerUriHandler
 
