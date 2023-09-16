@@ -486,6 +486,18 @@ registerTerminalLinkProvider(provider: TerminalLinkProvider<TerminalLink>): Disp
 registerTerminalProfileProvider(id: string, provider: TerminalProfileProvider): Disposable
 ```
 
+**Parameter**
+
++ *id*: string
+  + The ID of the contributed terminal profile.
++ *provider*: [TerminalProfileProvider]
+  + The terminal profile provider.
+
+**Returns**
+
++ [Disposable]
+  + Disposable that unregisters the provider.
+
 ### registerTreeDataProvider
 
 ```typescript
