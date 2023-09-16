@@ -877,6 +877,19 @@ See also [showInformationMessage](#showinformationmessage)
 showWorkspaceFolderPick(options?: WorkspaceFolderPickOptions): Thenable<WorkspaceFolder | undefined>
 ```
 
+Shows a selection list of workspace folders to pick from.
+Returns `undefined` if no folder is open.
+
+**Parameter**
+
++ options?: [WorkspaceFolderPickOptions]
+  + Configures the behavior of the workspace folder list.
+
+**Returns**
+
++ Thenable&lt;[WorkspaceFolder] | undefined&gt;
+  + A promise that resolves to the workspace folder or `undefined`.
+
 ### withProgress
 
 ```typescript
