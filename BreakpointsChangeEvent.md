@@ -18,6 +18,8 @@ Added breakpoints.
 changed: readonly Breakpoint[]
 ```
 
+Changed breakpoints.
+
 ### removed
 
 ```typescript
