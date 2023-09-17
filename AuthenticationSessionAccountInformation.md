@@ -18,3 +18,4 @@ The unique identifier of the account.
 label: string
 ```
 
+The human-readable name of the account.
