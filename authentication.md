@@ -57,6 +57,27 @@ the editor that implement GitHub and Microsoft authentication: their providerId'
 registerAuthenticationProvider(id: string, label: string, provider: AuthenticationProvider, options?: AuthenticationProviderOptions): Disposable
 ```
 
+Register an authentication provider.
+
+There can only be one provider per id and an error is being thrown when an id has already been used by another provider.
+Ids are case-sensitive.
+
+**Parameter**
+
++ *id*: string
+  + The unique identifier of the provider.
++ *label*: string
+  + The human-readable name of the provider.
++ *provider*: [AuthenticationProvider]
+  + The authentication provider provider.
++ *options*?: [AuthenticationProviderOptions]
+  + Additional options for the provider.
+
+**Returns**
+
++ [Disposable]
+  + A [Disposable] that unregisters this provider when being disposed.
+
 [AuthenticationSessionsChangeEvent]: AuthenticationSessionsChangeEvent.md
 [AuthenticationProviderOptions]: AuthenticationProviderOptions.md
 [AuthenticationForceNewSessionOptions]: AuthenticationForceNewSessionOptions.md
