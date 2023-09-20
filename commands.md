@@ -47,6 +47,26 @@ Second, bind the command identifier to a title under which it will show in the p
 executeCommand<T>(command: string, ...rest: any[]): Thenable<T>
 ```
 
+Executes the command denoted by the given command identifier.
+
++ Note 1: When executing an editor command not all types are allowed to be passed as arguments.
+  Allowed are the primitive types `string`, `boolean`, `number`, `undefined`, and `null`,
+  as well as [Position], [Range], [Uri] and [Location]
++ Note 2: There are no restrictions when executing commands that have been contributed by extensions.
+
+**Parameter**
+
++ *command*: string
+  + Identifier of the command to execute.
++ ...*rest*: any[]
+  + Parameters passed to the command function.
+
+**Returns**
+
++ Thenable&lt;T&gt;
+  + A thenable that resolves to the returned value of the given command.
+    Returns `undefined` when the command handler function doesn't return anything.
+
 ### getCommands
 
 ```typescript
@@ -69,3 +89,7 @@ registerTextEditorCommand(command: string, callback: (textEditor: TextEditor, ed
 [window]: window.md
 [Disposable]: Disposable.md
 [TextEditor]: TextEditor.md
+[Position]: Position.md
+[Range]: Range.md
+[Uri]: Uri.md
+[Location]: Location.md
