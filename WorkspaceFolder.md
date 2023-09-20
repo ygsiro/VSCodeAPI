@@ -18,6 +18,9 @@ The ordinal number of this workspace folder.
 name: string
 ```
 
+The name of this workspace folder.
+Defaults to the basename of its uri-path.
+
 ### uri
 
 ```typescript
