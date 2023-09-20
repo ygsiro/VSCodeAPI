@@ -10,6 +10,8 @@ Namespace for authentication.
 onDidChangeSessions: Event<AuthenticationSessionsChangeEvent>
 ```
 
+An Event which fires when the authentication sessions of an authentication provider have been added, removed, or changed.
+
 ## Functions
 
 ### getSession
