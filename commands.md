@@ -111,6 +111,26 @@ Registering a command with an existing command identifier twice will cause an er
 registerTextEditorCommand(command: string, callback: (textEditor: TextEditor, edit: TextEditorEdit, args: any[]) => void, thisArg?: any): Disposable
 ```
 
+Registers a text editor command that can be invoked via a keyboard shortcut, a menu item, an action, or directly.
+
+Text editor commands are different from ordinary commands as they only execute when there is an active editor when the command is called.
+Also, the command handler of an editor command has access to the active editor and to an editor-builder.
+Note that the edit-builder is only valid while the callback executes.
+
+**Parameter**
+
++ *command*: string
+  + A unique identifier for the command.
++ *callback*: (*textEditor*: [TextEditor], *edit*: [TextEditorEdit], args: any) => void
+  + A command handler function with access to an editor and an edit.
++ *thisArg*?: any
+  + The `this` context used when invoking the handler function.
+
+**Returns**
+
++ [Disposable]
+  + Disposable which unregisters this commands on disposal.
+
 [TextEditorEdit]: TextEditorEdit.md
 [window]: window.md
 [Disposable]: Disposable.md
