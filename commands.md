@@ -73,11 +73,37 @@ Executes the command denoted by the given command identifier.
 getCommands(filterInternal?: boolean): Thenable<string[]>
 ```
 
+Retrieve the list of sll available commands.
+Commands starting with an underscore are treated as internal commands.
+
+**Parameter**
+
++ *filterInternal*?: boolean
+  + 
+
 ### registerCommand
 
 ```typescript
 registerCommand(command: string, callback: (args: any[]) => any, thisArg?: any): Disposable
 ```
+
+Registers a command that can be invoked via a keyboard shortcut, a menu item, an action, or directly.
+
+Registering a command with an existing command identifier twice will cause an error.
+
+**Parameter**
+
++ *command*: string
+  + A unique identifier for the command.
++ *callback*: (*args*: any[]) => any
+  + A command handler function.
++ *thisArg*?: any
+  + The `this` context used when invoking the handler function.
+
+**Returns**
+
++ [Disposable]
+  + Disposable which unregisters this command on disposal.
 
 ### registerTextEditorCommand
 
