@@ -10,6 +10,8 @@ A workspace folder is one of potentially many roots opened by the editor. All wo
 index: number
 ```
 
+The ordinal number of this workspace folder.
+
 ### name
 
 ```typescript
