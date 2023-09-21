@@ -68,4 +68,13 @@ The defaults to false.
 silent?: boolean
 ```
 
+Whether we should show the indication to sign in in the Accounts menu.
+
+If false, the user will be shown a badge on the Accounts menu with an option to sign in for the extension.
+If true, no indication will be shown.
+
+Defaults to false.
+
+Note: you cannot use this option with any other options that prompt the user like createIfNone.
+
 [AuthenticationForceNewSessionOptions]: AuthenticationForceNewSessionOptions.md
