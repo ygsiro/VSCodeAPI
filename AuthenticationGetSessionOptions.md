@@ -52,6 +52,16 @@ Note: you cannot use this option with silent.
 forceNewSession?: boolean | AuthenticationForceNewSessionOptions
 ```
 
+Whether we should attempt to reauthenticate even if there is already a session available.
+
+If true, a model dialog will be shown asking the user to sign in again.
+This is mostly used for scenarios where the token needs to be re minted because it has lost some authentication.
+
+If there are no existing sessions and forceNewSession is true,
+it will behave identically to createIfNone.
+
+The defaults to false.
+
 ### silent
 
 ```typescript
