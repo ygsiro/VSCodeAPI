@@ -31,6 +31,21 @@ Default to false.
 createIfNone?: boolean
 ```
 
+Whether login should be performed if there is no matching session.
+
+If true, a model dialog will be shown asking the user to sign in.
+If false, a numbered badge will be shown on the accounts activity bar icon.
+An entry for the extension will be added under the menu to sign in.
+This allows quietly prompting the user to sign in.
+
+If there is a matching session but the extension has not been granted access to it,
+setting this to true will also result in an immediate model dialog,
+and false will add a numbered badge to the accounts icon.
+
+Default to false.
+
+Note: you cannot use this option with silent.
+
 ### forceNewSession
 
 ```typescript
